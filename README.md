@@ -2,7 +2,7 @@
 I am currently pursuing my Bachelor's Degree in Information Technology from DRS. Kiran & Pallavi Patel Global University.
 
 - 🌍  Currently living in India
-- ✉️  You can contact me at nitinmaharaj8866@gmail.com
+- ✉️  You can contact me at [nitinmaharaj8866@gmail.com](mailto:nitinmaharaj8866@gmail.com)
 
 <h2>Skills</h2>
 <p align="left">
@@ -15,7 +15,11 @@ I am currently pursuing my Bachelor's Degree in Information Technology from DRS.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/>
 </p>
+
 <h2>Contact me</h2>
 <p align="left">
   <a href="https://www.linkedin.com/in/nitin-maharaj-851987322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
@@ -25,8 +29,8 @@ I am currently pursuing my Bachelor's Degree in Information Technology from DRS.
     <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="40" height="40" alt="Gmail"/>
   </a>
 </p>
-<h2>Badges</h2>
 
+<h2>Badges</h2>
 
 ### GitHub Stats
 
@@ -42,7 +46,9 @@ I am currently pursuing my Bachelor's Degree in Information Technology from DRS.
 - ![CSS](https://img.shields.io/badge/CSS-70%25-1572B6?style=flat-square)
 - ![PHP](https://img.shields.io/badge/PHP-60%25-777BB4?style=flat-square)
 - ![JavaScript](https://img.shields.io/badge/JavaScript-40%25-F7DF1E?style=flat-square)
+- ![Flutter](https://img.shields.io/badge/Flutter-80%25-02569B?style=flat-square)
+- ![Kotlin](https://img.shields.io/badge/Kotlin-70%25-0095D5?style=flat-square)
+- ![React](https://img.shields.io/badge/React-80%25-61DAFB?style=flat-square)
 
 ### Streak Stats
 ![Current Streak](https://github-readme-streak-stats.herokuapp.com/?user=Nitin8866&theme=radical)
-
