@@ -51,8 +51,6 @@ I am currently pursuing my Bachelor's Degree in Information Technology from DRS.
 - ![React](https://img.shields.io/badge/React-80%25-61DAFB?style=flat-square)
 
 <a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com/?user=Nitin8866" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitin8866" alt="GitHub Streak" />
 </a>
-
-
 
