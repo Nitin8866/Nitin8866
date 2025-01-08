@@ -50,9 +50,6 @@ I am currently pursuing my Bachelor's Degree in Information Technology from DRS.
 - ![Kotlin](https://img.shields.io/badge/Kotlin-70%25-0095D5?style=flat-square)
 - ![React](https://img.shields.io/badge/React-80%25-61DAFB?style=flat-square)
 
-![Nitin's GitHub Streak](https://streak-stats.demolab.com/?user=Nitin8866&theme=radical&v=1)
-
-
-
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Nitin8866)](https://git.io/streak-stats)
 
 
