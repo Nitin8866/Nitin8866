@@ -1,1 +1,40 @@
+name: GitHub 3D Contribution Globe
 
+on:
+  schedule:
+    - cron: "0 18 * * *" # runs daily at midnight IST
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate 3D Contribution Globe
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: Nitin8866
+          SETTING_JSON: |
+            {
+              "username": "Nitin8866",
+              "type": "NORMAL",
+              "commonSettings": {
+                "width": 1200,
+                "height": 600,
+                "backgroundColor1": "0D1117",
+                "backgroundColor2": "0D1117"
+              }
+            }
+
+      - name: Commit and push output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A .
+          git commit -m "Update 3D contribution globe" --allow-empty
+          git push
