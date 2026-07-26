@@ -1,37 +1,39 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,40:4F46E5,80:7C3AED,100:0F172A&height=240&section=header&text=NITIN%20MAHARAJ&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=FULL%20STACK%20DEVELOPER%20%7C%20LARAVEL%20%E2%80%A2%20MERN%20%E2%80%A2%20FLUTTER&descAlignY=58&descSize=18" width="100%"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Inter&weight=700&size=24&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=80&lines=Full+Stack+Developer+Specializing+in+Laravel+%2B+MERN;Building+Scalable+Admin+Panels%2C+CRMs+%26+Mobile+PWAs;Crafting+Production-Ready+Web+Architectures;Turning+Complex+Ideas+into+Clean%2C+Efficient+Code" alt="Typing Tagline" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Nitin%20Maharaj&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Laravel%20•%20MERN%20•%20Flutter&descAlignY=58&descSize=18" width="100%"/>
 
 <br/>
 
-<a href="https://www.linkedin.com/in/nitin-maharaj-851987322"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="34"/></a>
-<a href="mailto:nitinmaharaj8866@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="34"/></a>
-<a href="https://github.com/Nitin8866"><img src="https://komarev.com/ghpvc/?username=Nitin8866&style=for-the-badge&color=6366f1&label=PROFILE+VIEWS" height="34"/></a>
-<a href="https://github.com/Nitin8866?tab=followers"><img src="https://img.shields.io/github/followers/Nitin8866?style=for-the-badge&color=4F46E5&labelColor=1E1B4B" height="34"/></a>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8E2DE2&center=true&vCenter=true&repeat=true&width=600&height=50&lines=Full+Stack+Developer;Laravel+%2B+MERN+Enthusiast;Building+Admin+Panels%2C+CRMs+%26+PWAs;Turning+Ideas+into+Clean%2C+Scalable+Code" alt="Typing Tagline" />
+</a>
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/nitin-maharaj-851987322"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="34"/></a>
+<a href="mailto:nitinmaharaj8866@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="34"/></a>
+<a href="https://github.com/Nitin8866"><img src="https://komarev.com/ghpvc/?username=Nitin8866&style=for-the-badge&color=8e2de2&label=PROFILE+VIEWS" height="34"/></a>
+<a href="https://github.com/Nitin8866?tab=followers"><img src="https://img.shields.io/github/followers/Nitin8866?style=for-the-badge&color=4A00E0&labelColor=8E2DE2" height="34"/></a>
 <img src="https://img.shields.io/badge/Location-India-059669?style=for-the-badge&logo=googlemaps&logoColor=white" height="34"/>
-<img src="https://img.shields.io/badge/Status-Available_for_Projects-7C3AED?style=for-the-badge" height="34"/>
+<img src="https://img.shields.io/badge/Status-Available_for_Projects-8E2DE2?style=for-the-badge" height="34"/>
 
 </div>
 
 <br/>
 
-<!-- ANNOUNCEMENT BANNER -->
+<!-- SYSTEM ANNOUNCEMENT BANNER -->
 <table width="100%" align="center">
   <tr>
-    <td bgcolor="#0F172A" style="padding: 16px 24px; border: 1px solid #312E81; border-radius: 12px;">
+    <td bgcolor="#0D1117" style="padding: 16px 24px; border: 1px solid #8E2DE2; border-radius: 12px;">
       <table width="100%">
         <tr>
           <td align="left">
-            <font color="#818CF8" size="3"><strong>SYSTEM ANNOUNCEMENT</strong></font><br/>
-            <font color="#E2E8F0" size="3">Full-Stack Engineer open for hiring, technical consulting, and software development collaborations.</font>
+            <font color="#8E2DE2" size="3"><strong>SYSTEM ANNOUNCEMENT</strong></font><br/>
+            <font color="#E6EDF3" size="3">Full-Stack Engineer open for hiring, technical consulting, and enterprise software development.</font>
           </td>
-          <td align="right" width="220">
+          <td align="right" width="200">
             <a href="mailto:nitinmaharaj8866@gmail.com">
-              <img src="https://img.shields.io/badge/GET_IN_TOUCH-4F46E5?style=for-the-badge&logoColor=white" />
+              <img src="https://img.shields.io/badge/GET_IN_TOUCH-8E2DE2?style=for-the-badge&logoColor=white" />
             </a>
           </td>
         </tr>
@@ -42,7 +44,7 @@
 
 <br/>
 
-<!-- TOP NAVIGATION -->
+<!-- TOP NAVIGATION BAR -->
 <div align="center">
   <sub>
     <a href="#overview">OVERVIEW</a> &nbsp;&bull;&nbsp;
@@ -68,25 +70,25 @@
 
 <table width="100%" align="center">
   <tr>
-    <td width="25%" align="center" bgcolor="#0F172A" style="padding:20px; border:1px solid #1E293B; border-radius:10px;">
-      <font color="#818CF8" size="5"><strong>DEGREE</strong></font><br/>
-      <font color="#94A3B8" size="2">B.S. Information Technology</font><br/>
-      <font color="#CBD5E1" size="2">DRS. K. & P. Patel Global Univ.</font>
+    <td width="25%" align="center" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
+      <font color="#8E2DE2" size="4"><strong>DEGREE</strong></font><br/>
+      <font color="#8B949E" size="2">B.S. Information Tech</font><br/>
+      <font color="#C9D1D9" size="2">DRS. K. & P. Patel Univ.</font>
     </td>
-    <td width="25%" align="center" bgcolor="#0F172A" style="padding:20px; border:1px solid #1E293B; border-radius:10px;">
-      <font color="#818CF8" size="5"><strong>STACK</strong></font><br/>
-      <font color="#94A3B8" size="2">Laravel &bull; MERN &bull; Flutter</font><br/>
-      <font color="#CBD5E1" size="2">Full Stack Architecture</font>
+    <td width="25%" align="center" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
+      <font color="#8E2DE2" size="4"><strong>STACK</strong></font><br/>
+      <font color="#8B949E" size="2">Laravel &bull; MERN &bull; Flutter</font><br/>
+      <font color="#C9D1D9" size="2">Full Stack Architecture</font>
     </td>
-    <td width="25%" align="center" bgcolor="#0F172A" style="padding:20px; border:1px solid #1E293B; border-radius:10px;">
-      <font color="#818CF8" size="5"><strong>FOCUS</strong></font><br/>
-      <font color="#94A3B8" size="2">Admin Panels &bull; CRMs &bull; PWAs</font><br/>
-      <font color="#CBD5E1" size="2">Enterprise Web & Mobile</font>
+    <td width="25%" align="center" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
+      <font color="#8E2DE2" size="4"><strong>FOCUS</strong></font><br/>
+      <font color="#8B949E" size="2">Admin Panels &bull; CRMs &bull; PWAs</font><br/>
+      <font color="#C9D1D9" size="2">Enterprise Web & Mobile</font>
     </td>
-    <td width="25%" align="center" bgcolor="#0F172A" style="padding:20px; border:1px solid #1E293B; border-radius:10px;">
-      <font color="#818CF8" size="5"><strong>LOCATION</strong></font><br/>
-      <font color="#94A3B8" size="2">India</font><br/>
-      <font color="#CBD5E1" size="2">Remote Worldwide</font>
+    <td width="25%" align="center" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
+      <font color="#8E2DE2" size="4"><strong>LOCATION</strong></font><br/>
+      <font color="#8B949E" size="2">India</font><br/>
+      <font color="#C9D1D9" size="2">Remote Worldwide</font>
     </td>
   </tr>
 </table>
@@ -97,24 +99,24 @@
 <a name="about-me"></a>
 <table width="100%">
   <tr>
-    <td width="60%" valign="top" bgcolor="#0F172A" style="padding:24px; border:1px solid #1E293B; border-radius:12px;">
+    <td width="65%" valign="top" bgcolor="#0D1117" style="padding:20px; border:1px solid #21262D; border-radius:12px;">
       <h3>DEVELOPER PROFILE</h3>
       <p>
-        Full Stack Engineer dedicated to designing high-throughput web applications, modular admin systems, and multi-platform mobile solutions. Possessing strong technical foundation in computer science and full-stack software development.
+        Full Stack Engineer dedicated to designing high-throughput web applications, modular admin systems, and multi-platform mobile solutions. Possessing strong technical foundation in computer science and software development.
       </p>
       <ul>
         <li><strong>Academic Degree:</strong> Bachelor of Science in Information Technology at DRS. Kiran & Pallavi Patel Global University.</li>
-        <li><strong>Core Specialization:</strong> End-to-end development using <strong>Laravel</strong>, <strong>MERN Stack (MongoDB, Express, React, Node.js)</strong>, and <strong>Flutter</strong> cross-platform framework.</li>
-        <li><strong>Current Focus:</strong> Architecting scalable Laravel backend architectures, standardizing shared Blade component trees, and engineering responsive React UI patterns.</li>
-        <li><strong>Development Philosophy:</strong> Prioritizing clean code structure, modular software design, pixel-perfect user interface rendering, and optimal application performance.</li>
+        <li><strong>Core Specialization:</strong> End-to-end development using <strong>Laravel</strong>, <strong>MERN Stack (MongoDB, Express, React, Node.js)</strong>, and <strong>Flutter</strong>.</li>
+        <li><strong>Current Focus:</strong> Architecting scalable Laravel backend systems, standardizing shared Blade component trees, and engineering responsive React UI patterns.</li>
+        <li><strong>Development Philosophy:</strong> Prioritizing clean code structure, modular software design, pixel-perfect user interface rendering, and optimal performance.</li>
         <li><strong>Direct Communication:</strong> <a href="mailto:nitinmaharaj8866@gmail.com">nitinmaharaj8866@gmail.com</a></li>
       </ul>
     </td>
-    <td width="40%" align="center" valign="middle" bgcolor="#0F172A" style="padding:24px; border:1px solid #1E293B; border-radius:12px;">
-      <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript-Dark.svg" width="140" alt="JS Icon"/>
+    <td width="35%" align="center" valign="middle" bgcolor="#0D1117" style="padding:20px; border:1px solid #21262D; border-radius:12px;">
+      <img src="https://skillicons.dev/icons?i=js" width="100" alt="JavaScript Logo"/>
       <br/><br/>
-      <font color="#818CF8" size="2"><strong>ENGINEERING MATRIX</strong></font><br/>
-      <font color="#94A3B8" size="2">Clean Code &bull; Microservices &bull; Responsive UI</font>
+      <font color="#8E2DE2" size="2"><strong>ENGINEERING MATRIX</strong></font><br/>
+      <font color="#8B949E" size="2">Clean Code &bull; Microservices &bull; Responsive UI</font>
     </td>
   </tr>
 </table>
@@ -129,7 +131,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:10px;">
+    <td width="33%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
       <h4 align="center">BACKEND & FRAMEWORKS</h4>
       <p align="center">
         <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
@@ -138,7 +140,7 @@
         <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
       </p>
     </td>
-    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:10px;">
+    <td width="33%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
       <h4 align="center">FRONTEND & MOBILE</h4>
       <p align="center">
         <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
@@ -149,7 +151,7 @@
         <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
       </p>
     </td>
-    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:10px;">
+    <td width="33%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
       <h4 align="center">DATABASE & TOOLING</h4>
       <p align="center">
         <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
@@ -175,7 +177,7 @@
 
 <table width="100%" align="center">
   <tr>
-    <td width="50%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:10px;">
+    <td width="50%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
       <h4>PROGRAMMING & CORE</h4>
       <table width="100%">
         <tr><td><strong>C Language</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
@@ -186,7 +188,7 @@
         <tr><td><strong>JavaScript</strong></td><td align="right"><code>[████░░░░░░] 40%</code></td></tr>
       </table>
     </td>
-    <td width="50%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:10px;">
+    <td width="50%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
       <h4>FRAMEWORKS & WEB/MOBILE</h4>
       <table width="100%">
         <tr><td><strong>HTML5</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
@@ -208,8 +210,8 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:20px; border:1px solid #312E81; border-radius:12px;">
-      <span style="background-color:#4F46E5; color:#FFFFFF; padding:4px 8px; border-radius:4px; font-size:11px; font-weight:bold;">ACTIVE PROJECT</span>
+    <td width="33%" valign="top" bgcolor="#0D1117" style="padding:20px; border:1px solid #8E2DE2; border-radius:12px;">
+      <span style="background-color:#8E2DE2; color:#FFFFFF; padding:4px 8px; border-radius:4px; font-size:11px; font-weight:bold;">ACTIVE PROJECT</span>
       <h3>Laravel Admin Panel</h3>
       <p>Modular backend system designed for scalable administrative workflows, role-based access control, and standardized UI partials.</p>
       <ul>
@@ -219,7 +221,7 @@
       </ul>
       <p><strong>Stack:</strong> Laravel &bull; Blade &bull; MySQL &bull; Bootstrap</p>
     </td>
-    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:20px; border:1px solid #312E81; border-radius:12px;">
+    <td width="33%" valign="top" bgcolor="#0D1117" style="padding:20px; border:1px solid #8E2DE2; border-radius:12px;">
       <span style="background-color:#059669; color:#FFFFFF; padding:4px 8px; border-radius:4px; font-size:11px; font-weight:bold;">PRODUCTION SITE</span>
       <h3>Nilkant Jewellers</h3>
       <p>High-performance static brochure web application built on Laravel 8 framework featuring elegant catalog presentation.</p>
@@ -230,8 +232,8 @@
       </ul>
       <p><strong>Stack:</strong> Laravel 8 &bull; HTML5 &bull; CSS3 &bull; JavaScript</p>
     </td>
-    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:20px; border:1px solid #312E81; border-radius:12px;">
-      <span style="background-color:#7C3AED; color:#FFFFFF; padding:4px 8px; border-radius:4px; font-size:11px; font-weight:bold;">CROSS-PLATFORM</span>
+    <td width="33%" valign="top" bgcolor="#0D1117" style="padding:20px; border:1px solid #8E2DE2; border-radius:12px;">
+      <span style="background-color:#4A00E0; color:#FFFFFF; padding:4px 8px; border-radius:4px; font-size:11px; font-weight:bold;">CROSS-PLATFORM</span>
       <h3>Gym Platform PWA</h3>
       <p>Comprehensive fitness management solution comprising an administrative control dashboard paired with a member progressive web app.</p>
       <ul>
@@ -252,56 +254,50 @@
 
 <div align="center">
 
-<table width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=Nitin8866&show_icons=true&count_private=true&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="175" alt="GitHub Stats"/>
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitin8866&theme=radical&border_radius=12&hide_border=true&background=0D1117" height="175" alt="GitHub Streak"/>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin8866&layout=compact&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="180" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Nitin8866&show_icons=true&count_private=true&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="170"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitin8866&theme=radical&border_radius=12&hide_border=true&background=0D1117" height="170"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitin8866&theme=react-dark&hide_border=true&bg_color=0D1117&color=8E2DE2&line=4A00E0&point=ffffff" width="100%" alt="Activity Graph"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin8866&layout=compact&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="180"/>
 
 <br/><br/>
 
-<h4>ACHIEVEMENTS & TROPHIES</h4>
-<img src="https://github-profile-trophy.vercel.app/?username=Nitin8866&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="Trophies"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitin8866&theme=react-dark&hide_border=true&bg_color=0D1117&color=8E2DE2&line=4A00E0&point=ffffff" width="100%"/>
+
+<br/><br/>
+
+<h3>ACHIEVEMENTS & TROPHIES</h3>
+<img src="https://github-profile-trophy.vercel.app/?username=Nitin8866&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" />
 
 </div>
 
 <br/>
 
 <!-- SYSTEM QUALITY INDICATORS -->
+<h3 align="center">SYSTEM QUALITY METRICS</h3>
+
 <table width="100%" align="center">
   <tr>
-    <td width="20%" align="center" bgcolor="#0F172A" style="padding:12px; border:1px solid #1E293B;">
-      <font color="#818CF8" size="2">SCALABILITY</font><br/>
-      <font color="#FFFFFF" size="4"><strong>98%</strong></font>
+    <td align="center" bgcolor="#0D1117" style="padding:12px; border:1px solid #21262D;">
+      <font color="#8E2DE2" size="2">SCALABILITY</font><br/>
+      <font color="#FFFFFF" size="3"><strong>98%</strong></font>
     </td>
-    <td width="20%" align="center" bgcolor="#0F172A" style="padding:12px; border:1px solid #1E293B;">
-      <font color="#818CF8" size="2">SECURITY</font><br/>
-      <font color="#FFFFFF" size="4"><strong>95%</strong></font>
+    <td align="center" bgcolor="#0D1117" style="padding:12px; border:1px solid #21262D;">
+      <font color="#8E2DE2" size="2">SECURITY</font><br/>
+      <font color="#FFFFFF" size="3"><strong>95%</strong></font>
     </td>
-    <td width="20%" align="center" bgcolor="#0F172A" style="padding:12px; border:1px solid #1E293B;">
-      <font color="#818CF8" size="2">RESPONSIVENESS</font><br/>
-      <font color="#FFFFFF" size="4"><strong>100%</strong></font>
+    <td align="center" bgcolor="#0D1117" style="padding:12px; border:1px solid #21262D;">
+      <font color="#8E2DE2" size="2">RESPONSIVE</font><br/>
+      <font color="#FFFFFF" size="3"><strong>100%</strong></font>
     </td>
-    <td width="20%" align="center" bgcolor="#0F172A" style="padding:12px; border:1px solid #1E293B;">
-      <font color="#818CF8" size="2">MAINTAINABILITY</font><br/>
-      <font color="#FFFFFF" size="4"><strong>96%</strong></font>
+    <td align="center" bgcolor="#0D1117" style="padding:12px; border:1px solid #21262D;">
+      <font color="#8E2DE2" size="2">MAINTAIN</font><br/>
+      <font color="#FFFFFF" size="3"><strong>96%</strong></font>
     </td>
-    <td width="20%" align="center" bgcolor="#0F172A" style="padding:12px; border:1px solid #1E293B;">
-      <font color="#818CF8" size="2">CODE QUALITY</font><br/>
-      <font color="#FFFFFF" size="4"><strong>95%</strong></font>
+    <td align="center" bgcolor="#0D1117" style="padding:12px; border:1px solid #21262D;">
+      <font color="#8E2DE2" size="2">QUALITY</font><br/>
+      <font color="#FFFFFF" size="3"><strong>95%</strong></font>
     </td>
   </tr>
 </table>
@@ -314,21 +310,21 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:8px;">
+    <td width="25%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:8px;">
       <h4 align="center">1. PRESENTATION</h4>
-      <p align="center"><font size="2" color="#94A3B8">Blade Templates &bull; React UI &bull; Flutter PWA Layouts</font></p>
+      <p align="center"><font size="2" color="#8B949E">Blade Templates &bull; React UI &bull; Flutter PWA Layouts</font></p>
     </td>
-    <td width="25%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:8px;">
+    <td width="25%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:8px;">
       <h4 align="center">2. API & ROUTING</h4>
-      <p align="center"><font size="2" color="#94A3B8">Laravel REST API &bull; Express Routers &bull; Auth Middleware</font></p>
+      <p align="center"><font size="2" color="#8B949E">Laravel REST API &bull; Express Routers &bull; Auth Middleware</font></p>
     </td>
-    <td width="25%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:8px;">
+    <td width="25%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:8px;">
       <h4 align="center">3. BUSINESS LOGIC</h4>
-      <p align="center"><font size="2" color="#94A3B8">Service Layer &bull; Controllers &bull; RBAC Validation</font></p>
+      <p align="center"><font size="2" color="#8B949E">Service Layer &bull; Controllers &bull; RBAC Validation</font></p>
     </td>
-    <td width="25%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:8px;">
+    <td width="25%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:8px;">
       <h4 align="center">4. DATA STORAGE</h4>
-      <p align="center"><font size="2" color="#94A3B8">MySQL Relational DB &bull; MongoDB Documents &bull; Cache</font></p>
+      <p align="center"><font size="2" color="#8B949E">MySQL Relational DB &bull; MongoDB Documents &bull; Cache</font></p>
     </td>
   </tr>
 </table>
@@ -340,24 +336,24 @@
 <h2 align="center">SYSTEM WORKFLOW PIPELINE</h2>
 
 <table width="100%" align="center">
-  <tr bgcolor="#0F172A">
-    <th align="center" style="padding:12px; border:1px solid #1E293B;">STEP 1: CLIENT REQUEST</th>
-    <th align="center" style="padding:12px; border:1px solid #1E293B;">STEP 2: GATEWAY & AUTH</th>
-    <th align="center" style="padding:12px; border:1px solid #1E293B;">STEP 3: SERVICE LOGIC</th>
-    <th align="center" style="padding:12px; border:1px solid #1E293B;">STEP 4: DATA PERSISTENCE</th>
+  <tr bgcolor="#0D1117">
+    <th align="center" style="padding:12px; border:1px solid #21262D;">STEP 1: CLIENT REQUEST</th>
+    <th align="center" style="padding:12px; border:1px solid #21262D;">STEP 2: GATEWAY & AUTH</th>
+    <th align="center" style="padding:12px; border:1px solid #21262D;">STEP 3: SERVICE LOGIC</th>
+    <th align="center" style="padding:12px; border:1px solid #21262D;">STEP 4: DATA PERSISTENCE</th>
   </tr>
   <tr>
-    <td align="center" style="padding:12px; border:1px solid #1E293B;" bgcolor="#0F172A">
-      <font size="2" color="#CBD5E1">User Action on React / Blade / Flutter Interface</font>
+    <td align="center" style="padding:12px; border:1px solid #21262D;" bgcolor="#0D1117">
+      <font size="2" color="#C9D1D9">User Action on React / Blade / Flutter Interface</font>
     </td>
-    <td align="center" style="padding:12px; border:1px solid #1E293B;" bgcolor="#0F172A">
-      <font size="2" color="#CBD5E1">Route Dispatcher & JWT / Session Middleware Verification</font>
+    <td align="center" style="padding:12px; border:1px solid #21262D;" bgcolor="#0D1117">
+      <font size="2" color="#C9D1D9">Route Dispatcher & JWT / Session Middleware Verification</font>
     </td>
-    <td align="center" style="padding:12px; border:1px solid #1E293B;" bgcolor="#0F172A">
-      <font size="2" color="#CBD5E1">Execution of Controller Logic & Domain Services</font>
+    <td align="center" style="padding:12px; border:1px solid #21262D;" bgcolor="#0D1117">
+      <font size="2" color="#C9D1D9">Execution of Controller Logic & Domain Services</font>
     </td>
-    <td align="center" style="padding:12px; border:1px solid #1E293B;" bgcolor="#0F172A">
-      <font size="2" color="#CBD5E1">MySQL / MongoDB Query Execution & JSON Response</font>
+    <td align="center" style="padding:12px; border:1px solid #21262D;" bgcolor="#0D1117">
+      <font size="2" color="#C9D1D9">MySQL / MongoDB Query Execution & JSON Response</font>
     </td>
   </tr>
 </table>
@@ -370,9 +366,9 @@
 
 <table width="100%">
   <tr>
-    <td bgcolor="#0F172A" style="padding:20px; border:1px solid #1E293B; border-radius:10px;">
+    <td bgcolor="#0D1117" style="padding:20px; border:1px solid #21262D; border-radius:10px;">
       <h4>STEP 1: ENVIRONMENT PREREQUISITES</h4>
-      <p><font size="2" color="#94A3B8">Ensure PHP 8.x, Composer, Node.js (v18+), npm/yarn, MySQL, and Flutter SDK are installed.</font></p>
+      <p><font size="2" color="#8B949E">Ensure PHP 8.x, Composer, Node.js (v18+), npm/yarn, MySQL, and Flutter SDK are installed.</font></p>
       
       <h4>STEP 2: CLONE REPOSITORY</h4>
 ```bash
@@ -437,7 +433,7 @@ nitin-maharaj-portfolio/
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Nitin8866/Nitin8866/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution Snake"/>
+<img src="https://raw.githubusercontent.com/Nitin8866/Nitin8866/output/github-contribution-grid-snake.svg" width="100%"/>
 
 </div>
 
@@ -489,25 +485,25 @@ jobs:
 <h2 align="center">DEVELOPMENT ROADMAP</h2>
 
 <table width="100%">
-  <tr bgcolor="#0F172A">
-    <th align="left" style="padding:10px; border:1px solid #1E293B;">MILESTONE</th>
-    <th align="left" style="padding:10px; border:1px solid #1E293B;">DESCRIPTION</th>
-    <th align="center" style="padding:10px; border:1px solid #1E293B;">STATUS</th>
+  <tr bgcolor="#0D1117">
+    <th align="left" style="padding:10px; border:1px solid #21262D;">MILESTONE</th>
+    <th align="left" style="padding:10px; border:1px solid #21262D;">DESCRIPTION</th>
+    <th align="center" style="padding:10px; border:1px solid #21262D;">STATUS</th>
   </tr>
   <tr>
-    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Shared Blade Partials</td>
-    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Standardizing modular UI component structures across admin panels</td>
-    <td align="center" style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">COMPLETED</td>
+    <td style="padding:10px; border:1px solid #21262D;" bgcolor="#0D1117">Shared Blade Partials</td>
+    <td style="padding:10px; border:1px solid #21262D;" bgcolor="#0D1117">Standardizing modular UI component structures across admin panels</td>
+    <td align="center" style="padding:10px; border:1px solid #21262D;" bgcolor="#0D1117">COMPLETED</td>
   </tr>
   <tr>
-    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Gym Platform PWA</td>
-    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Building member PWA interface alongside centralized admin panel</td>
-    <td align="center" style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">IN PROGRESS</td>
+    <td style="padding:10px; border:1px solid #21262D;" bgcolor="#0D1117">Gym Platform PWA</td>
+    <td style="padding:10px; border:1px solid #21262D;" bgcolor="#0D1117">Building member PWA interface alongside centralized admin panel</td>
+    <td align="center" style="padding:10px; border:1px solid #21262D;" bgcolor="#0D1117">IN PROGRESS</td>
   </tr>
   <tr>
-    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Advanced React & Laravel</td>
-    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Deep dive into microservices patterns and state optimization</td>
-    <td align="center" style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">PLANNED</td>
+    <td style="padding:10px; border:1px solid #21262D;" bgcolor="#0D1117">Advanced React & Laravel</td>
+    <td style="padding:10px; border:1px solid #21262D;" bgcolor="#0D1117">Deep dive into microservices patterns and state optimization</td>
+    <td align="center" style="padding:10px; border:1px solid #21262D;" bgcolor="#0D1117">PLANNED</td>
   </tr>
 </table>
 
@@ -550,7 +546,7 @@ jobs:
 
 <h3>DEVELOPER QUOTE OF THE DAY</h3>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Developer Quote"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
 
 </div>
 
@@ -560,11 +556,11 @@ jobs:
 <a name="connect"></a>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:0F172A&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=120&section=footer"/>
 
 <p>
   <strong>Nitin Maharaj &bull; Full Stack Developer</strong><br/>
-  <font color="#94A3B8" size="2">Building scalable, performant, and production-ready applications.</font>
+  <font color="#8B949E" size="2">Building scalable, performant, and production-ready applications.</font>
 </p>
 
 <p>
