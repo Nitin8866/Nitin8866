@@ -326,10 +326,62 @@
 
 </div>
 
+<hr />
+
+<!-- 3D CONTRIBUTION GLOBE -->
+<h2 align="center">3D CONTRIBUTION GLOBE</h2>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Nitin8866/Nitin8866/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Globe"/>
+
+</div>
+
+<details>
+<summary><strong>CLICK TO ENABLE 3D GLOBE — One-time GitHub Action setup (2 minutes)</strong></summary>
 <br/>
+
+Create this file: `.github/workflows/globe.yml`
+
+```yaml
+name: GitHub 3D Contribution Globe
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate 3D Contribution Globe
+    steps:
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: Nitin8866
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A .
+          git commit -m "Update 3D contribution globe" --allow-empty
+          git push
+```
+
+After committing, go to **Actions tab → GitHub 3D Contribution Globe → Run workflow**.
+
+</details>
+
+<hr />
 
 <!-- SYSTEM QUALITY INDICATORS -->
 <h3 align="center">SYSTEM QUALITY METRICS</h3>
+
 
 <table width="100%" align="center">
   <tr>
