@@ -113,7 +113,7 @@
       </ul>
     </td>
     <td width="35%" align="center" valign="middle" bgcolor="#0D1117" style="padding:20px; border:1px solid #21262D; border-radius:12px;">
-      <img src="https://skillicons.dev/icons?i=js" width="100" alt="JavaScript Logo"/>
+      <img src="https://skillicons.dev/icons?i=js" width="90" alt="JavaScript Logo"/>
       <br/><br/>
       <font color="#8E2DE2" size="2"><strong>ENGINEERING MATRIX</strong></font><br/>
       <font color="#8B949E" size="2">Clean Code &bull; Microservices &bull; Responsive UI</font>
@@ -254,21 +254,21 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nitin8866&show_icons=true&count_private=true&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="170"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitin8866&theme=radical&border_radius=12&hide_border=true&background=0D1117" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Nitin8866&show_icons=true&theme=radical&hide_border=true" height="170" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitin8866&theme=radical&hide_border=true" height="170" alt="GitHub Streak"/>
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin8866&layout=compact&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin8866&layout=compact&theme=radical&hide_border=true" height="170" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitin8866&theme=react-dark&hide_border=true&bg_color=0D1117&color=8E2DE2&line=4A00E0&point=ffffff" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitin8866&theme=react-dark&hide_border=true&color=8E2DE2&line=4A00E0&point=ffffff" width="100%" alt="Activity Graph"/>
 
 <br/><br/>
 
 <h3>ACHIEVEMENTS & TROPHIES</h3>
-<img src="https://github-profile-trophy.vercel.app/?username=Nitin8866&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=Nitin8866&theme=radical" alt="GitHub Trophies"/>
 
 </div>
 
