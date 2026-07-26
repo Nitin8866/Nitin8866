@@ -2,7 +2,7 @@ name: GitHub 3D Contribution Globe
 
 on:
   schedule:
-    - cron: "0 18 * * *" # runs daily at midnight IST
+    - cron: "0 18 * * *"
   workflow_dispatch: {}
   push:
     branches:
@@ -12,6 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Generate 3D Contribution Globe
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
 
@@ -19,17 +21,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: Nitin8866
-          SETTING_JSON: |
-            {
-              "username": "Nitin8866",
-              "type": "NORMAL",
-              "commonSettings": {
-                "width": 1200,
-                "height": 600,
-                "backgroundColor1": "0D1117",
-                "backgroundColor2": "0D1117"
-              }
-            }
 
       - name: Commit and push output
         run: |
