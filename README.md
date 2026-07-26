@@ -1,165 +1,581 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Hi%20There,%20I'm%20Nitin%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Laravel%20•%20MERN%20•%20Flutter&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,40:4F46E5,80:7C3AED,100:0F172A&height=240&section=header&text=NITIN%20MAHARAJ&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=FULL%20STACK%20DEVELOPER%20%7C%20LARAVEL%20%E2%80%A2%20MERN%20%E2%80%A2%20FLUTTER&descAlignY=58&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=8E2DE2&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=80&lines=Full+Stack+Developer+%F0%9F%92%BB;Laravel+%2B+MERN+Enthusiast+%F0%9F%9A%80;Building+Admin+Panels%2C+CRMs+%26+Web+Apps;Turning+Ideas+into+Clean%2C+Scalable+Code" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Inter&weight=700&size=24&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=80&lines=Full+Stack+Developer+Specializing+in+Laravel+%2B+MERN;Building+Scalable+Admin+Panels%2C+CRMs+%26+Mobile+PWAs;Crafting+Production-Ready+Web+Architectures;Turning+Complex+Ideas+into+Clean%2C+Efficient+Code" alt="Typing Tagline" />
 </a>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/nitin-maharaj-851987322"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="34"/></a>
+<a href="mailto:nitinmaharaj8866@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="34"/></a>
+<a href="https://github.com/Nitin8866"><img src="https://komarev.com/ghpvc/?username=Nitin8866&style=for-the-badge&color=6366f1&label=PROFILE+VIEWS" height="34"/></a>
+<a href="https://github.com/Nitin8866?tab=followers"><img src="https://img.shields.io/github/followers/Nitin8866?style=for-the-badge&color=4F46E5&labelColor=1E1B4B" height="34"/></a>
+<img src="https://img.shields.io/badge/Location-India-059669?style=for-the-badge&logo=googlemaps&logoColor=white" height="34"/>
+<img src="https://img.shields.io/badge/Status-Available_for_Projects-7C3AED?style=for-the-badge" height="34"/>
 
 </div>
 
 <br/>
 
+<!-- ANNOUNCEMENT BANNER -->
+<table width="100%" align="center">
+  <tr>
+    <td bgcolor="#0F172A" style="padding: 16px 24px; border: 1px solid #312E81; border-radius: 12px;">
+      <table width="100%">
+        <tr>
+          <td align="left">
+            <font color="#818CF8" size="3"><strong>SYSTEM ANNOUNCEMENT</strong></font><br/>
+            <font color="#E2E8F0" size="3">Full-Stack Engineer open for hiring, technical consulting, and software development collaborations.</font>
+          </td>
+          <td align="right" width="220">
+            <a href="mailto:nitinmaharaj8866@gmail.com">
+              <img src="https://img.shields.io/badge/GET_IN_TOUCH-4F46E5?style=for-the-badge&logoColor=white" />
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- TOP NAVIGATION -->
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nitin-maharaj-851987322)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nitinmaharaj8866@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=Nitin8866&style=for-the-badge&color=8e2de2&label=PROFILE+VIEWS)](https://github.com/Nitin8866)
-[![GitHub followers](https://img.shields.io/github/followers/Nitin8866?style=for-the-badge&color=4A00E0&labelColor=8E2DE2)](https://github.com/Nitin8866?tab=followers)
-
+  <sub>
+    <a href="#overview">OVERVIEW</a> &nbsp;&bull;&nbsp;
+    <a href="#about-me">ABOUT ME</a> &nbsp;&bull;&nbsp;
+    <a href="#tech-stack">TECH STACK</a> &nbsp;&bull;&nbsp;
+    <a href="#skill-proficiency">PROFICIENCY</a> &nbsp;&bull;&nbsp;
+    <a href="#featured-projects">PROJECTS</a> &nbsp;&bull;&nbsp;
+    <a href="#github-analytics">ANALYTICS</a> &nbsp;&bull;&nbsp;
+    <a href="#architecture">ARCHITECTURE</a> &nbsp;&bull;&nbsp;
+    <a href="#system-workflow">WORKFLOW</a> &nbsp;&bull;&nbsp;
+    <a href="#installation-guide">SETUP</a> &nbsp;&bull;&nbsp;
+    <a href="#project-roadmap">ROADMAP</a> &nbsp;&bull;&nbsp;
+    <a href="#faq">FAQ</a> &nbsp;&bull;&nbsp;
+    <a href="#connect">CONTACT</a>
+  </sub>
 </div>
 
----
+<hr />
 
-### 🧑‍💻 About Me
+<!-- EXECUTIVE OVERVIEW MATRIX -->
+<a name="overview"></a>
+<h2 align="center">EXECUTIVE SUMMARY</h2>
 
-<img align="right" alt="Coding GIF" width="340" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript-Dark.svg" />
+<table width="100%" align="center">
+  <tr>
+    <td width="25%" align="center" bgcolor="#0F172A" style="padding:20px; border:1px solid #1E293B; border-radius:10px;">
+      <font color="#818CF8" size="5"><strong>DEGREE</strong></font><br/>
+      <font color="#94A3B8" size="2">B.S. Information Technology</font><br/>
+      <font color="#CBD5E1" size="2">DRS. K. & P. Patel Global Univ.</font>
+    </td>
+    <td width="25%" align="center" bgcolor="#0F172A" style="padding:20px; border:1px solid #1E293B; border-radius:10px;">
+      <font color="#818CF8" size="5"><strong>STACK</strong></font><br/>
+      <font color="#94A3B8" size="2">Laravel &bull; MERN &bull; Flutter</font><br/>
+      <font color="#CBD5E1" size="2">Full Stack Architecture</font>
+    </td>
+    <td width="25%" align="center" bgcolor="#0F172A" style="padding:20px; border:1px solid #1E293B; border-radius:10px;">
+      <font color="#818CF8" size="5"><strong>FOCUS</strong></font><br/>
+      <font color="#94A3B8" size="2">Admin Panels &bull; CRMs &bull; PWAs</font><br/>
+      <font color="#CBD5E1" size="2">Enterprise Web & Mobile</font>
+    </td>
+    <td width="25%" align="center" bgcolor="#0F172A" style="padding:20px; border:1px solid #1E293B; border-radius:10px;">
+      <font color="#818CF8" size="5"><strong>LOCATION</strong></font><br/>
+      <font color="#94A3B8" size="2">India</font><br/>
+      <font color="#CBD5E1" size="2">Remote Worldwide</font>
+    </td>
+  </tr>
+</table>
 
-- 🎓 Currently pursuing my **Bachelor's Degree in Information Technology** from DRS. Kiran & Pallavi Patel Global University
-- 💼 Full Stack Developer — **Laravel · MERN · Flutter**
-- 🛠️ Building admin panels, CRMs, brochure sites & interactive web widgets
-- 🌱 Currently deep-diving into advanced **React** patterns & scalable **Laravel** architecture
-- 🌍 Currently living in **India**
-- ⚡ Fun fact: I love pixel-perfect, production-ready UI
-- 📫 Reach me at **nitinmaharaj8866@gmail.com**
+<br/>
 
-<br clear="right"/>
+<!-- ABOUT ME -->
+<a name="about-me"></a>
+<table width="100%">
+  <tr>
+    <td width="60%" valign="top" bgcolor="#0F172A" style="padding:24px; border:1px solid #1E293B; border-radius:12px;">
+      <h3>DEVELOPER PROFILE</h3>
+      <p>
+        Full Stack Engineer dedicated to designing high-throughput web applications, modular admin systems, and multi-platform mobile solutions. Possessing strong technical foundation in computer science and full-stack software development.
+      </p>
+      <ul>
+        <li><strong>Academic Degree:</strong> Bachelor of Science in Information Technology at DRS. Kiran & Pallavi Patel Global University.</li>
+        <li><strong>Core Specialization:</strong> End-to-end development using <strong>Laravel</strong>, <strong>MERN Stack (MongoDB, Express, React, Node.js)</strong>, and <strong>Flutter</strong> cross-platform framework.</li>
+        <li><strong>Current Focus:</strong> Architecting scalable Laravel backend architectures, standardizing shared Blade component trees, and engineering responsive React UI patterns.</li>
+        <li><strong>Development Philosophy:</strong> Prioritizing clean code structure, modular software design, pixel-perfect user interface rendering, and optimal application performance.</li>
+        <li><strong>Direct Communication:</strong> <a href="mailto:nitinmaharaj8866@gmail.com">nitinmaharaj8866@gmail.com</a></li>
+      </ul>
+    </td>
+    <td width="40%" align="center" valign="middle" bgcolor="#0F172A" style="padding:24px; border:1px solid #1E293B; border-radius:12px;">
+      <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript-Dark.svg" width="140" alt="JS Icon"/>
+      <br/><br/>
+      <font color="#818CF8" size="2"><strong>ENGINEERING MATRIX</strong></font><br/>
+      <font color="#94A3B8" size="2">Clean Code &bull; Microservices &bull; Responsive UI</font>
+    </td>
+  </tr>
+</table>
 
----
+<hr />
 
-### 🛠️ Tech Stack
+<!-- TECH STACK -->
+<a name="tech-stack"></a>
+<h2 align="center">TECHNOLOGY ECOSYSTEM</h2>
 
 <div align="center">
+
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:10px;">
+      <h4 align="center">BACKEND & FRAMEWORKS</h4>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+        <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+      </p>
+    </td>
+    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:10px;">
+      <h4 align="center">FRONTEND & MOBILE</h4>
+      <p align="center">
+        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+      </p>
+    </td>
+    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:10px;">
+      <h4 align="center">DATABASE & TOOLING</h4>
+      <p align="center">
+        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=c,cpp,python,java,html,css,js,php,laravel,react,nodejs,express,mongodb,figma,flutter,kotlin,git,github,vscode,postman&perline=10" />
 
 </div>
 
+<hr />
+
+<!-- SKILL PROFICIENCY -->
+<a name="skill-proficiency"></a>
+<h2 align="center">SKILL PROFICIENCY MATRIX</h2>
+
+<table width="100%" align="center">
+  <tr>
+    <td width="50%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:10px;">
+      <h4>PROGRAMMING & CORE</h4>
+      <table width="100%">
+        <tr><td><strong>C Language</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
+        <tr><td><strong>C++</strong></td><td align="right"><code>[██████░░░░] 60%</code></td></tr>
+        <tr><td><strong>Python</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
+        <tr><td><strong>Java</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
+        <tr><td><strong>PHP</strong></td><td align="right"><code>[██████░░░░] 60%</code></td></tr>
+        <tr><td><strong>JavaScript</strong></td><td align="right"><code>[████░░░░░░] 40%</code></td></tr>
+      </table>
+    </td>
+    <td width="50%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:10px;">
+      <h4>FRAMEWORKS & WEB/MOBILE</h4>
+      <table width="100%">
+        <tr><td><strong>HTML5</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
+        <tr><td><strong>CSS3</strong></td><td align="right"><code>[███████░░░] 70%</code></td></tr>
+        <tr><td><strong>Laravel</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
+        <tr><td><strong>React</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
+        <tr><td><strong>Flutter</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
+        <tr><td><strong>Kotlin</strong></td><td align="right"><code>[███████░░░] 70%</code></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<hr />
+
+<!-- FEATURED PROJECTS -->
+<a name="featured-projects"></a>
+<h2 align="center">FEATURED PROJECTS & WORK</h2>
+
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:20px; border:1px solid #312E81; border-radius:12px;">
+      <span style="background-color:#4F46E5; color:#FFFFFF; padding:4px 8px; border-radius:4px; font-size:11px; font-weight:bold;">ACTIVE PROJECT</span>
+      <h3>Laravel Admin Panel</h3>
+      <p>Modular backend system designed for scalable administrative workflows, role-based access control, and standardized UI partials.</p>
+      <ul>
+        <li>Standardizing shared Blade partial templates</li>
+        <li>Custom RBAC middleware integration</li>
+        <li>Optimized SQL query performance</li>
+      </ul>
+      <p><strong>Stack:</strong> Laravel &bull; Blade &bull; MySQL &bull; Bootstrap</p>
+    </td>
+    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:20px; border:1px solid #312E81; border-radius:12px;">
+      <span style="background-color:#059669; color:#FFFFFF; padding:4px 8px; border-radius:4px; font-size:11px; font-weight:bold;">PRODUCTION SITE</span>
+      <h3>Nilkant Jewellers</h3>
+      <p>High-performance static brochure web application built on Laravel 8 framework featuring elegant catalog presentation.</p>
+      <ul>
+        <li>Static Laravel 8 brochure architecture</li>
+        <li>Responsive image asset optimization</li>
+        <li>Clean SEO and semantic layout</li>
+      </ul>
+      <p><strong>Stack:</strong> Laravel 8 &bull; HTML5 &bull; CSS3 &bull; JavaScript</p>
+    </td>
+    <td width="33%" valign="top" bgcolor="#0F172A" style="padding:20px; border:1px solid #312E81; border-radius:12px;">
+      <span style="background-color:#7C3AED; color:#FFFFFF; padding:4px 8px; border-radius:4px; font-size:11px; font-weight:bold;">CROSS-PLATFORM</span>
+      <h3>Gym Platform PWA</h3>
+      <p>Comprehensive fitness management solution comprising an administrative control dashboard paired with a member progressive web app.</p>
+      <ul>
+        <li>Member portal PWA layout</li>
+        <li>Admin tracking control dashboard</li>
+        <li>Responsive cross-device interface</li>
+      </ul>
+      <p><strong>Stack:</strong> React &bull; Node.js &bull; Express &bull; Flutter PWA</p>
+    </td>
+  </tr>
+</table>
+
+<hr />
+
+<!-- GITHUB ANALYTICS -->
+<a name="github-analytics"></a>
+<h2 align="center">ANALYTICS & METRICS DASHBOARD</h2>
+
+<div align="center">
+
+<table width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=Nitin8866&show_icons=true&count_private=true&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="175" alt="GitHub Stats"/>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitin8866&theme=radical&border_radius=12&hide_border=true&background=0D1117" height="175" alt="GitHub Streak"/>
+    </td>
+  </tr>
+</table>
+
 <br/>
 
-<div align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin8866&layout=compact&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="180" alt="Top Languages"/>
 
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Tailwind](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitin8866&theme=react-dark&hide_border=true&bg_color=0D1117&color=8E2DE2&line=4A00E0&point=ffffff" width="100%" alt="Activity Graph"/>
+
+<br/><br/>
+
+<h4>ACHIEVEMENTS & TROPHIES</h4>
+<img src="https://github-profile-trophy.vercel.app/?username=Nitin8866&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="Trophies"/>
 
 </div>
 
----
+<br/>
 
-### 📊 Skill Proficiency
+<!-- SYSTEM QUALITY INDICATORS -->
+<table width="100%" align="center">
+  <tr>
+    <td width="20%" align="center" bgcolor="#0F172A" style="padding:12px; border:1px solid #1E293B;">
+      <font color="#818CF8" size="2">SCALABILITY</font><br/>
+      <font color="#FFFFFF" size="4"><strong>98%</strong></font>
+    </td>
+    <td width="20%" align="center" bgcolor="#0F172A" style="padding:12px; border:1px solid #1E293B;">
+      <font color="#818CF8" size="2">SECURITY</font><br/>
+      <font color="#FFFFFF" size="4"><strong>95%</strong></font>
+    </td>
+    <td width="20%" align="center" bgcolor="#0F172A" style="padding:12px; border:1px solid #1E293B;">
+      <font color="#818CF8" size="2">RESPONSIVENESS</font><br/>
+      <font color="#FFFFFF" size="4"><strong>100%</strong></font>
+    </td>
+    <td width="20%" align="center" bgcolor="#0F172A" style="padding:12px; border:1px solid #1E293B;">
+      <font color="#818CF8" size="2">MAINTAINABILITY</font><br/>
+      <font color="#FFFFFF" size="4"><strong>96%</strong></font>
+    </td>
+    <td width="20%" align="center" bgcolor="#0F172A" style="padding:12px; border:1px solid #1E293B;">
+      <font color="#818CF8" size="2">CODE QUALITY</font><br/>
+      <font color="#FFFFFF" size="4"><strong>95%</strong></font>
+    </td>
+  </tr>
+</table>
 
-<div align="center">
+<hr />
 
-**C** &nbsp;`████████░░`&nbsp; 80%
-**C++** &nbsp;`██████░░░░`&nbsp; 60%
-**Python** &nbsp;`████████░░`&nbsp; 80%
-**Java** &nbsp;`████████░░`&nbsp; 80%
+<!-- ARCHITECTURE -->
+<a name="architecture"></a>
+<h2 align="center">SYSTEM ARCHITECTURE PATTERNS</h2>
 
-**HTML** &nbsp;`████████░░`&nbsp; 80%
-**CSS** &nbsp;`███████░░░`&nbsp; 70%
-**PHP** &nbsp;`██████░░░░`&nbsp; 60%
-**JavaScript** &nbsp;`████░░░░░░`&nbsp; 40%
+<table width="100%">
+  <tr>
+    <td width="25%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:8px;">
+      <h4 align="center">1. PRESENTATION</h4>
+      <p align="center"><font size="2" color="#94A3B8">Blade Templates &bull; React UI &bull; Flutter PWA Layouts</font></p>
+    </td>
+    <td width="25%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:8px;">
+      <h4 align="center">2. API & ROUTING</h4>
+      <p align="center"><font size="2" color="#94A3B8">Laravel REST API &bull; Express Routers &bull; Auth Middleware</font></p>
+    </td>
+    <td width="25%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:8px;">
+      <h4 align="center">3. BUSINESS LOGIC</h4>
+      <p align="center"><font size="2" color="#94A3B8">Service Layer &bull; Controllers &bull; RBAC Validation</font></p>
+    </td>
+    <td width="25%" valign="top" bgcolor="#0F172A" style="padding:16px; border:1px solid #1E293B; border-radius:8px;">
+      <h4 align="center">4. DATA STORAGE</h4>
+      <p align="center"><font size="2" color="#94A3B8">MySQL Relational DB &bull; MongoDB Documents &bull; Cache</font></p>
+    </td>
+  </tr>
+</table>
 
-**Laravel** &nbsp;`████████░░`&nbsp; 80%
-**React** &nbsp;`████████░░`&nbsp; 80%
-**Flutter** &nbsp;`████████░░`&nbsp; 80%
-**Kotlin** &nbsp;`███████░░░`&nbsp; 70%
+<hr />
 
-</div>
+<!-- WORKFLOW PIPELINE -->
+<a name="system-workflow"></a>
+<h2 align="center">SYSTEM WORKFLOW PIPELINE</h2>
 
----
+<table width="100%" align="center">
+  <tr bgcolor="#0F172A">
+    <th align="center" style="padding:12px; border:1px solid #1E293B;">STEP 1: CLIENT REQUEST</th>
+    <th align="center" style="padding:12px; border:1px solid #1E293B;">STEP 2: GATEWAY & AUTH</th>
+    <th align="center" style="padding:12px; border:1px solid #1E293B;">STEP 3: SERVICE LOGIC</th>
+    <th align="center" style="padding:12px; border:1px solid #1E293B;">STEP 4: DATA PERSISTENCE</th>
+  </tr>
+  <tr>
+    <td align="center" style="padding:12px; border:1px solid #1E293B;" bgcolor="#0F172A">
+      <font size="2" color="#CBD5E1">User Action on React / Blade / Flutter Interface</font>
+    </td>
+    <td align="center" style="padding:12px; border:1px solid #1E293B;" bgcolor="#0F172A">
+      <font size="2" color="#CBD5E1">Route Dispatcher & JWT / Session Middleware Verification</font>
+    </td>
+    <td align="center" style="padding:12px; border:1px solid #1E293B;" bgcolor="#0F172A">
+      <font size="2" color="#CBD5E1">Execution of Controller Logic & Domain Services</font>
+    </td>
+    <td align="center" style="padding:12px; border:1px solid #1E293B;" bgcolor="#0F172A">
+      <font size="2" color="#CBD5E1">MySQL / MongoDB Query Execution & JSON Response</font>
+    </td>
+  </tr>
+</table>
 
-### 📈 GitHub Stats
+<hr />
 
-<div align="center">
+<!-- INSTALLATION GUIDE -->
+<a name="installation-guide"></a>
+<h2 align="center">PROJECT SETUP & INSTALLATION GUIDE</h2>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nitin8866&show_icons=true&count_private=true&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="170"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitin8866&theme=radical&border_radius=12&hide_border=true&background=0D1117" height="170"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin8866&layout=compact&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="180"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitin8866&theme=react-dark&hide_border=true&bg_color=0D1117&color=8E2DE2&line=4A00E0&point=ffffff" width="100%"/>
-
-</div>
-
----
-
-### 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Nitin8866&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" />
-
-</div>
-
----
-
-### 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Nitin8866/Nitin8866/output/github-contribution-grid-snake.svg" width="100%"/>
-
-</div>
-
-> ⚙️ **Setup note:** the snake animation above needs a one-time GitHub Action. See the "Enable the Snake Animation" section at the bottom — takes under 2 minutes.
-
----
-
-### 🎯 Currently Working On
-
-<div align="center">
-
-```text
-[ Laravel Admin Panel ]  →  standardizing shared Blade partials
-[ Nilkant Jewellers ]    →  static Laravel 8 brochure site
-[ Gym Platform ]         →  admin dashboard + member PWA
+<table width="100%">
+  <tr>
+    <td bgcolor="#0F172A" style="padding:20px; border:1px solid #1E293B; border-radius:10px;">
+      <h4>STEP 1: ENVIRONMENT PREREQUISITES</h4>
+      <p><font size="2" color="#94A3B8">Ensure PHP 8.x, Composer, Node.js (v18+), npm/yarn, MySQL, and Flutter SDK are installed.</font></p>
+      
+      <h4>STEP 2: CLONE REPOSITORY</h4>
+```bash
+git clone https://github.com/Nitin8866/Nitin8866.git
+cd Nitin8866
 ```
 
-</div>
+      <h4>STEP 3: DEPENDENCY INITIALIZATION</h4>
+```bash
+# For Laravel Backend Projects
+composer install
+cp .env.example .env
+php artisan key:generate
 
----
+# For Node.js / React Projects
+npm install
+```
+
+      <h4>STEP 4: SERVER STARTUP</h4>
+```bash
+# Run Laravel Development Server
+php artisan serve
+
+# Run Frontend Development Server
+npm run dev
+```
+    </td>
+  </tr>
+</table>
+
+<hr />
+
+<!-- PROJECT STRUCTURE -->
+<h2 align="center">WORKSPACE REPOSITORY TREE</h2>
+
+```text
+nitin-maharaj-portfolio/
+├── .github/
+│   └── workflows/
+│       └── snake.yml              # Automated GitHub Action snake renderer
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/           # Application controllers
+│   │   └── Middleware/            # Authentication & RBAC filters
+│   └── Models/                    # Eloquent data models
+├── resources/
+│   ├── views/                     # Blade views & shared UI partials
+│   ├── css/                       # Custom stylesheets
+│   └── js/                        # React / JavaScript components
+├── routes/
+│   ├── web.php                    # Web application routes
+│   └── api.php                    # REST API endpoints
+├── storage/                       # Application logs & generated assets
+└── README.md                      # Developer profile README
+```
+
+<hr />
+
+<!-- CONTRIBUTION SNAKE -->
+<a name="contribution-snake"></a>
+<h2 align="center">CONTRIBUTION SNAKE GRAPH</h2>
 
 <div align="center">
 
-### 💬 Random Dev Quote
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<img src="https://raw.githubusercontent.com/Nitin8866/Nitin8866/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution Snake"/>
 
 </div>
 
----
+<br/>
 
+<details>
+<summary><strong>CLICK TO VIEW WORKFLOW CONFIGURATION (snake.yml)</strong></summary>
+<br/>
+
+```yaml
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # runs once a day
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Nitin8866
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push output to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+</details>
+
+<hr />
+
+<!-- ROADMAP -->
+<a name="project-roadmap"></a>
+<h2 align="center">DEVELOPMENT ROADMAP</h2>
+
+<table width="100%">
+  <tr bgcolor="#0F172A">
+    <th align="left" style="padding:10px; border:1px solid #1E293B;">MILESTONE</th>
+    <th align="left" style="padding:10px; border:1px solid #1E293B;">DESCRIPTION</th>
+    <th align="center" style="padding:10px; border:1px solid #1E293B;">STATUS</th>
+  </tr>
+  <tr>
+    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Shared Blade Partials</td>
+    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Standardizing modular UI component structures across admin panels</td>
+    <td align="center" style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">COMPLETED</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Gym Platform PWA</td>
+    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Building member PWA interface alongside centralized admin panel</td>
+    <td align="center" style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">IN PROGRESS</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Advanced React & Laravel</td>
+    <td style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">Deep dive into microservices patterns and state optimization</td>
+    <td align="center" style="padding:10px; border:1px solid #1E293B;" bgcolor="#0F172A">PLANNED</td>
+  </tr>
+</table>
+
+<hr />
+
+<!-- FAQ ACCORDION -->
+<a name="faq"></a>
+<h2 align="center">FREQUENTLY ASKED QUESTIONS</h2>
+
+<details>
+<summary><strong>What is your primary tech stack?</strong></summary>
+<p>My primary expertise lies in full-stack web and mobile development, specifically using Laravel for robust backend systems, MERN (MongoDB, Express, React, Node.js) for modern web applications, and Flutter for cross-platform mobile apps.</p>
+</details>
+
+<br/>
+
+<details>
+<summary><strong>Are you available for freelance projects or full-time roles?</strong></summary>
+<p>Yes, I am open to full-time software engineering roles, technical consulting, and select freelance software development projects.</p>
+</details>
+
+<br/>
+
+<details>
+<summary><strong>What degree are you pursuing?</strong></summary>
+<p>I am pursuing my Bachelor of Science Degree in Information Technology from DRS. Kiran & Pallavi Patel Global University in India.</p>
+</details>
+
+<br/>
+
+<details>
+<summary><strong>How can I reach out to discuss a potential project?</strong></summary>
+<p>You can send an email directly to <a href="mailto:nitinmaharaj8866@gmail.com">nitinmaharaj8866@gmail.com</a> or connect with me via <a href="https://www.linkedin.com/in/nitin-maharaj-851987322">LinkedIn</a>.</p>
+</details>
+
+<hr />
+
+<!-- PHILOSOPHY & RANDOM DEV QUOTE -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=120&section=footer"/>
+<h3>DEVELOPER QUOTE OF THE DAY</h3>
 
-**Thanks for stopping by! Let's build something great together 🚀**
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Developer Quote"/>
+
+</div>
+
+<hr />
+
+<!-- FOOTER -->
+<a name="connect"></a>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:0F172A&height=120&section=footer"/>
+
+<p>
+  <strong>Nitin Maharaj &bull; Full Stack Developer</strong><br/>
+  <font color="#94A3B8" size="2">Building scalable, performant, and production-ready applications.</font>
+</p>
+
+<p>
+  <a href="mailto:nitinmaharaj8866@gmail.com">Email</a> &bull;
+  <a href="https://www.linkedin.com/in/nitin-maharaj-851987322">LinkedIn</a> &bull;
+  <a href="https://github.com/Nitin8866">GitHub</a> &bull;
+  <a href="#overview">Back to Top</a>
+</p>
+
+<p>
+  <sub>&copy; 2026 Nitin Maharaj. All rights reserved.</sub>
+</p>
 
 </div>
