@@ -254,21 +254,21 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nitin8866&show_icons=true&theme=radical&hide_border=true" height="170" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitin8866&theme=radical&hide_border=true" height="170" alt="GitHub Streak"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Nitin8866&show_icons=true&count_private=true&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="170"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitin8866&theme=radical&border_radius=12&hide_border=true&background=0D1117" height="170"/>
 
-<br/><br/>
+<br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin8866&layout=compact&theme=radical&hide_border=true" height="170" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin8866&layout=compact&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="180"/>
 
-<br/><br/>
+<br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitin8866&theme=react-dark&hide_border=true&color=8E2DE2&line=4A00E0&point=ffffff" width="100%" alt="Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitin8866&theme=react-dark&hide_border=true&bg_color=0D1117&color=8E2DE2&line=4A00E0&point=ffffff" width="100%"/>
 
-<br/><br/>
+<br/>
 
 <h3>ACHIEVEMENTS & TROPHIES</h3>
-<img src="https://github-profile-trophy.vercel.app/?username=Nitin8866&theme=radical" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Nitin8866&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" />
 
 </div>
 
