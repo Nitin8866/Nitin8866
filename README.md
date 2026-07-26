@@ -254,21 +254,75 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nitin8866&show_icons=true&count_private=true&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="170"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitin8866&theme=radical&border_radius=12&hide_border=true&background=0D1117" height="170"/>
+<!-- GITHUB PROFILE STATS — Static shields.io badges (load everywhere) -->
+<img src="https://img.shields.io/badge/Total_Commits-584-8E2DE2?style=for-the-badge&logo=github&logoColor=white" height="32"/>
+<img src="https://img.shields.io/badge/Contributions-Active_Since_2023-4A00E0?style=for-the-badge&logo=github&logoColor=white" height="32"/>
+<img src="https://img.shields.io/github/followers/Nitin8866?style=for-the-badge&logo=github&label=FOLLOWERS&color=8E2DE2" height="32"/>
+<img src="https://img.shields.io/github/stars/Nitin8866?style=for-the-badge&logo=github&label=STARS&color=4A00E0" height="32"/>
+
+<br/><br/>
+
+</div>
+
+<!-- LANGUAGE PROFICIENCY STATS — Always-visible styled table -->
+<h3 align="center">PRIMARY LANGUAGE USAGE</h3>
+
+<table width="100%" align="center">
+  <tr>
+    <td width="33%" align="center" valign="top" bgcolor="#0D1117" style="padding:18px; border:1px solid #8E2DE2; border-radius:10px;">
+      <img src="https://img.shields.io/badge/PHP_/_Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Usage-35%25-FF2D20?style=flat-square" />
+    </td>
+    <td width="33%" align="center" valign="top" bgcolor="#0D1117" style="padding:18px; border:1px solid #8E2DE2; border-radius:10px;">
+      <img src="https://img.shields.io/badge/JavaScript_/_React-F7DF1E?style=for-the-badge&logo=react&logoColor=black" /><br/>
+      <img src="https://img.shields.io/badge/Usage-25%25-F7DF1E?style=flat-square" />
+    </td>
+    <td width="33%" align="center" valign="top" bgcolor="#0D1117" style="padding:18px; border:1px solid #8E2DE2; border-radius:10px;">
+      <img src="https://img.shields.io/badge/Dart_/_Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Usage-20%25-02569B?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top" bgcolor="#0D1117" style="padding:18px; border:1px solid #21262D; border-radius:10px;">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Usage-10%25-3776AB?style=flat-square" />
+    </td>
+    <td width="33%" align="center" valign="top" bgcolor="#0D1117" style="padding:18px; border:1px solid #21262D; border-radius:10px;">
+      <img src="https://img.shields.io/badge/Java_/_Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Usage-7%25-7F52FF?style=flat-square" />
+    </td>
+    <td width="33%" align="center" valign="top" bgcolor="#0D1117" style="padding:18px; border:1px solid #21262D; border-radius:10px;">
+      <img src="https://img.shields.io/badge/C_/_C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Usage-3%25-00599C?style=flat-square" />
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin8866&layout=compact&theme=radical&border_radius=12&hide_border=true&bg_color=0D1117" height="180"/>
-
-<br/>
-
+<!-- ACTIVITY GRAPH (renders on GitHub.com) -->
+<div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitin8866&theme=react-dark&hide_border=true&bg_color=0D1117&color=8E2DE2&line=4A00E0&point=ffffff" width="100%"/>
+</div>
 
 <br/>
 
-<h3>ACHIEVEMENTS & TROPHIES</h3>
-<img src="https://github-profile-trophy.vercel.app/?username=Nitin8866&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" />
+<!-- ACHIEVEMENT BADGES — Static, loads everywhere -->
+<h3 align="center">ACHIEVEMENTS & MILESTONES</h3>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Open_Source-Contributor-8E2DE2?style=for-the-badge&logo=git&logoColor=white" height="32"/>
+<img src="https://img.shields.io/badge/Full_Stack-Engineer-4A00E0?style=for-the-badge&logo=stackshare&logoColor=white" height="32"/>
+<img src="https://img.shields.io/badge/Mobile_Dev-Flutter_Expert-02569B?style=for-the-badge&logo=flutter&logoColor=white" height="32"/>
+<img src="https://img.shields.io/badge/API-Builder-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" height="32"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/PWA-Developer-7F52FF?style=for-the-badge&logo=pwa&logoColor=white" height="32"/>
+<img src="https://img.shields.io/badge/UI_/_UX-Design_First-F24E1E?style=for-the-badge&logo=figma&logoColor=white" height="32"/>
+<img src="https://img.shields.io/badge/Backend-Architect-339933?style=for-the-badge&logo=node.js&logoColor=white" height="32"/>
+<img src="https://img.shields.io/badge/Database-Expert-4479A1?style=for-the-badge&logo=mysql&logoColor=white" height="32"/>
 
 </div>
 
