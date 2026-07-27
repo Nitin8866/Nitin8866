@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+  <!-- Outer purple glow -->
+  <radialGradient id="gGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"   stop-color="#7C3AED" stop-opacity="0.45"/>
+    <stop offset="45%"  stop-color="#4F46E5" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Sphere limb darkening (depth illusion) -->
+  <radialGradient id="gLimb" cx="50%" cy="50%" r="50%">
+    <stop offset="52%"  stop-color="#0D1117" stop-opacity="0"/>
+    <stop offset="88%"  stop-color="#0D1117" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#0D1117" stop-opacity="0.92"/>
+  </radialGradient>
+
+  <!-- Orbit glow filter -->
+  <filter id="oGlow" x="-25%" y="-25%" width="150%" height="150%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <!-- Node dot glow filter -->
+  <filter id="nGlow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <!-- Clip to sphere boundary -->
+  <clipPath id="sCp">
+    <circle cx="600" cy="300" r="233"/>
+  </clipPath>
+
+  <!--
+    MERIDIAN DOT PATTERN  (in globe-local coords, origin = globe center)
+    Dots at latitudes ±75°, ±55°, ±35°, ±15°, 0°  (equator) — front & back sides
+    Formula: x = ±R·cos(φ),  y = −R·sin(φ),  R=230
+    Front (x>0): full opacity | Back (x<0): reduced opacity
+  -->
+  <symbol id="mDots" overflow="visible">
+    <!-- N Pole -->
+    <rect x="-2.5" y="-232.5" width="5" height="5" rx="1" fill="#c4b5fd" opacity="0.9" filter="url(#nGlow)"/>
+    <!-- φ=75°N -->
+    <rect x="57.5"   y="-224.5" width="5" height="5" rx="1" fill="#a78bfa"/>
+    <rect x="-62.5"  y="-224.5" width="5" height="5" rx="1" fill="#818cf8" opacity="0.35"/>
+    <!-- φ=55°N -->
+    <rect x="129.5"  y="-190.5" width="5" height="5" rx="1" fill="#a78bfa"/>
+    <rect x="-134.5" y="-190.5" width="5" height="5" rx="1" fill="#818cf8" opacity="0.35"/>
+    <!-- φ=35°N -->
+    <rect x="185.5"  y="-134.5" width="5" height="5" rx="1" fill="#818cf8"/>
+    <rect x="-190.5" y="-134.5" width="5" height="5" rx="1" fill="#818cf8" opacity="0.35"/>
+    <!-- φ=15°N -->
+    <rect x="219.5"  y="-62.5"  width="5" height="5" rx="1" fill="#818cf8"/>
+    <rect x="-224.5" y="-62.5"  width="5" height="5" rx="1" fill="#818cf8" opacity="0.35"/>
+    <!-- Equator -->
+    <rect x="227.5"  y="-2.5"   width="5" height="5" rx="1" fill="#c4b5fd" filter="url(#nGlow)"/>
+    <rect x="-232.5" y="-2.5"   width="5" height="5" rx="1" fill="#818cf8" opacity="0.3"/>
+    <!-- φ=15°S -->
+    <rect x="219.5"  y="57.5"   width="5" height="5" rx="1" fill="#818cf8"/>
+    <rect x="-224.5" y="57.5"   width="5" height="5" rx="1" fill="#818cf8" opacity="0.35"/>
+    <!-- φ=35°S -->
+    <rect x="185.5"  y="129.5"  width="5" height="5" rx="1" fill="#818cf8"/>
+    <rect x="-190.5" y="129.5"  width="5" height="5" rx="1" fill="#818cf8" opacity="0.35"/>
+    <!-- φ=55°S -->
+    <rect x="129.5"  y="185.5"  width="5" height="5" rx="1" fill="#a78bfa"/>
+    <rect x="-134.5" y="185.5"  width="5" height="5" rx="1" fill="#818cf8" opacity="0.35"/>
+    <!-- φ=75°S -->
+    <rect x="57.5"   y="219.5"  width="5" height="5" rx="1" fill="#a78bfa"/>
+    <rect x="-62.5"  y="219.5"  width="5" height="5" rx="1" fill="#818cf8" opacity="0.35"/>
+    <!-- S Pole -->
+    <rect x="-2.5" y="227.5" width="5" height="5" rx="1" fill="#c4b5fd" opacity="0.9" filter="url(#nGlow)"/>
+  </symbol>
+
+</defs>
+
+<!-- ── BACKGROUND ──────────────────────────────────────── -->
+<rect width="1200" height="600" fill="#0D1117"/>
+
+<!-- ── OUTER GLOW HALO ──────────────────────────────────── -->
+<circle cx="600" cy="300" r="330" fill="url(#gGlow)"/>
+
+<!-- ── WIREFRAME (clipped inside sphere) ───────────────── -->
+<g clip-path="url(#sCp)">
+
+  <!-- LATITUDE RINGS (static horizontal ellipses) -->
+  <!-- φ=±75° (near poles) -->
+  <ellipse cx="600" cy="78"  rx="60"  ry="21" fill="none" stroke="#6366f1" stroke-width="0.7" opacity="0.38"/>
+  <ellipse cx="600" cy="522" rx="60"  ry="21" fill="none" stroke="#6366f1" stroke-width="0.7" opacity="0.38"/>
+  <!-- φ=±55° -->
+  <ellipse cx="600" cy="112" rx="132" ry="46" fill="none" stroke="#6366f1" stroke-width="0.85" opacity="0.48"/>
+  <ellipse cx="600" cy="488" rx="132" ry="46" fill="none" stroke="#6366f1" stroke-width="0.85" opacity="0.48"/>
+  <!-- φ=±35° -->
+  <ellipse cx="600" cy="168" rx="188" ry="66" fill="none" stroke="#818cf8" stroke-width="0.95" opacity="0.58"/>
+  <ellipse cx="600" cy="432" rx="188" ry="66" fill="none" stroke="#818cf8" stroke-width="0.95" opacity="0.58"/>
+  <!-- φ=±15° -->
+  <ellipse cx="600" cy="240" rx="222" ry="78" fill="none" stroke="#818cf8" stroke-width="1.0"  opacity="0.65"/>
+  <ellipse cx="600" cy="360" rx="222" ry="78" fill="none" stroke="#818cf8" stroke-width="1.0"  opacity="0.65"/>
+  <!-- Equator -->
+  <ellipse cx="600" cy="300" rx="230" ry="80" fill="none" stroke="#a78bfa" stroke-width="1.3"  opacity="0.78"/>
+
+  <!-- ANIMATED MERIDIANS
+       Each is a full great-circle (scaleX animation simulates 3D rotation around Y axis).
+       12 meridians, period=20s, stagger=20/12≈1.667s
+       scaleX:  1→0→-1→0→1  (appears as full ellipse→line→full ellipse on other side)
+       opacity: bright on front face, dimmer on back face
+  -->
+  <g transform="translate(600,300)">
+
+    <!-- M0: begin=0s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="0s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="0s"/>
+    </g>
+
+    <!-- M1: begin=-1.667s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="-1.667s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="-1.667s"/>
+    </g>
+
+    <!-- M2: begin=-3.333s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="-3.333s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="-3.333s"/>
+    </g>
+
+    <!-- M3: begin=-5s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="-5s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="-5s"/>
+    </g>
+
+    <!-- M4: begin=-6.667s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="-6.667s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="-6.667s"/>
+    </g>
+
+    <!-- M5: begin=-8.333s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="-8.333s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="-8.333s"/>
+    </g>
+
+    <!-- M6: begin=-10s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="-10s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="-10s"/>
+    </g>
+
+    <!-- M7: begin=-11.667s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="-11.667s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="-11.667s"/>
+    </g>
+
+    <!-- M8: begin=-13.333s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="-13.333s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="-13.333s"/>
+    </g>
+
+    <!-- M9: begin=-15s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="-15s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="-15s"/>
+    </g>
+
+    <!-- M10: begin=-16.667s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="-16.667s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="-16.667s"/>
+    </g>
+
+    <!-- M11: begin=-18.333s -->
+    <g opacity="0.68">
+      <ellipse cx="0" cy="0" rx="230" ry="230" fill="none" stroke="#6366f1" stroke-width="0.85"/>
+      <use href="#mDots"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1;0 1;-1 1;0 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+        dur="20s" repeatCount="indefinite" begin="-18.333s"/>
+      <animate attributeName="opacity"
+        values="0.68;0.28;0.18;0.28;0.68" keyTimes="0;0.22;0.5;0.78;1"
+        dur="20s" repeatCount="indefinite" begin="-18.333s"/>
+    </g>
+
+  </g><!-- end meridians group -->
+
+</g><!-- end clip-path -->
+
+<!-- ── GLOBE OUTLINE ─────────────────────────────────── -->
+<circle cx="600" cy="300" r="230" fill="none" stroke="#7C3AED" stroke-width="1.6" opacity="0.85"/>
+
+<!-- ── LIMB DARKENING (sphere depth effect) ──────────── -->
+<circle cx="600" cy="300" r="233" fill="url(#gLimb)"/>
+
+<!-- ── ACCENT ORBIT RING (inclined, animated pulse) ──── -->
+<g filter="url(#oGlow)">
+  <ellipse cx="600" cy="300" rx="295" ry="115"
+    fill="none" stroke="#a855f7" stroke-width="2.2" opacity="0.65"
+    transform="rotate(-38 600 300)">
+    <animate attributeName="opacity" values="0.45;0.82;0.45" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="1.8;2.8;1.8" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Second orbit (thinner, faster pulse) -->
+  <ellipse cx="600" cy="300" rx="260" ry="90"
+    fill="none" stroke="#818cf8" stroke-width="1.2" opacity="0.4"
+    transform="rotate(18 600 300)">
+    <animate attributeName="opacity" values="0.25;0.55;0.25" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+</g>
+
+<!-- ── POLE MARKERS ──────────────────────────────────── -->
+<circle cx="600" cy="70"  r="5" fill="#c4b5fd" opacity="0.95" filter="url(#nGlow)"/>
+<circle cx="600" cy="530" r="5" fill="#c4b5fd" opacity="0.95" filter="url(#nGlow)"/>
+
+</svg>
