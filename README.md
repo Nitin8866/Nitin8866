@@ -333,7 +333,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Nitin8866/Nitin8866/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Globe"/>
+<img src="https://raw.githubusercontent.com/Nitin8866/Nitin8866/main/globe-animation.svg" width="100%" alt="3D Rotating Wireframe Globe"/>
 
 </div>
 
