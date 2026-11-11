@@ -60,7 +60,7 @@
 
 <!-- EXECUTIVE OVERVIEW MATRIX -->
 <a name="overview"></a>
-<h2 align="center">EXECUTIVE SUMMARY</h2>
+<h3 align="center">EXECUTIVE SUMMARY</h3>
 
 <div align="center">
   <img src="./executive-summary.svg" alt="Executive Summary — Degree, Stack, Focus, Location" width="100%"/>
@@ -76,86 +76,31 @@
   </a>
 </div>
 
-<hr />
+<br/>
 
 <!-- TECH STACK -->
 <a name="tech-stack"></a>
-<h2 align="center">TECHNOLOGY ECOSYSTEM</h2>
+<h3 align="center">TECHNOLOGY ECOSYSTEM</h3>
 
 <div align="center">
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
-      <h4 align="center">BACKEND & FRAMEWORKS</h4>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-        <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-      </p>
-    </td>
-    <td width="33%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
-      <h4 align="center">FRONTEND & MOBILE</h4>
-      <p align="center">
-        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
-        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-      </p>
-    </td>
-    <td width="33%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
-      <h4 align="center">DATABASE & TOOLING</h4>
-      <p align="center">
-        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-</table>
+<img src="./tech-ecosystem.svg" alt="Technology Ecosystem — Backend, Frontend &amp; Mobile, Database &amp; Tooling" width="100%"/>
 
-<br/>
+<br/><br/>
 
 <img src="https://skillicons.dev/icons?i=c,cpp,python,java,html,css,js,php,laravel,react,nodejs,express,mongodb,figma,flutter,kotlin,git,github,vscode,postman&perline=10" />
 
 </div>
 
-<hr />
+<br/>
 
 <!-- SKILL PROFICIENCY -->
 <a name="skill-proficiency"></a>
-<h2 align="center">SKILL PROFICIENCY MATRIX</h2>
+<h3 align="center">SKILL PROFICIENCY MATRIX</h3>
 
-<table width="100%" align="center">
-  <tr>
-    <td width="50%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
-      <h4>PROGRAMMING & CORE</h4>
-      <table width="100%">
-        <tr><td><strong>C Language</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
-        <tr><td><strong>C++</strong></td><td align="right"><code>[██████░░░░] 60%</code></td></tr>
-        <tr><td><strong>Python</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
-        <tr><td><strong>Java</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
-        <tr><td><strong>PHP</strong></td><td align="right"><code>[██████░░░░] 60%</code></td></tr>
-        <tr><td><strong>JavaScript</strong></td><td align="right"><code>[████░░░░░░] 40%</code></td></tr>
-      </table>
-    </td>
-    <td width="50%" valign="top" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
-      <h4>FRAMEWORKS & WEB/MOBILE</h4>
-      <table width="100%">
-        <tr><td><strong>HTML5</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
-        <tr><td><strong>CSS3</strong></td><td align="right"><code>[███████░░░] 70%</code></td></tr>
-        <tr><td><strong>Laravel</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
-        <tr><td><strong>React</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
-        <tr><td><strong>Flutter</strong></td><td align="right"><code>[████████░░] 80%</code></td></tr>
-        <tr><td><strong>Kotlin</strong></td><td align="right"><code>[███████░░░] 70%</code></td></tr>
-      </table>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./skill-proficiency.svg" alt="Skill Proficiency Matrix" width="100%"/>
+</div>
 
 <hr />
 
