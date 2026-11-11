@@ -80,7 +80,7 @@
 
     <!-- Live radar indicator -->
     <circle cx="42" cy="47" r="5" fill="#10B981" opacity="0.85" class="ringAnim"/>
-    <circle cx="42" cy="47" r="5" fill="#34D399" filter="url(#glow)" class="dotAnim"/>
+    <circle cx="42" cy="47" r="5" fill="#34D399" class="dotAnim"/>
 
     <!-- Announcement pill & copy -->
     <rect x="64" y="21" width="194" height="22" rx="6" fill="#0B221B" stroke="#10B981" stroke-opacity="0.45" stroke-width="1"/>

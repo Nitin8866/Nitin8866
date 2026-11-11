@@ -52,7 +52,7 @@
     <circle cx="130" cy="88" r="58" fill="none" stroke="#10B981" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3 7" class="tickSpin"/>
     <circle cx="130" cy="88" r="46" fill="none" stroke="#1E293B" stroke-width="10"/>
     <circle cx="130" cy="88" r="46" fill="none" stroke="#10B981" stroke-width="10" stroke-linecap="round"
-            stroke-dasharray="283.25 289.03" transform="rotate(-90 130 88)" filter="url(#glow)"/>
+            stroke-dasharray="283.25 289.03" transform="rotate(-90 130 88)"/>
     <text x="130" y="95" class="mono" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">98%</text>
 
     <text x="130" y="171" class="sans" font-size="14" font-weight="800" letter-spacing="1.4" fill="#10B981" text-anchor="middle">SCALABILITY</text>
@@ -70,7 +70,7 @@
     <circle cx="415" cy="88" r="58" fill="none" stroke="#06B6D4" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3 7" class="tickSpin"/>
     <circle cx="415" cy="88" r="46" fill="none" stroke="#1E293B" stroke-width="10"/>
     <circle cx="415" cy="88" r="46" fill="none" stroke="#06B6D4" stroke-width="10" stroke-linecap="round"
-            stroke-dasharray="274.58 289.03" transform="rotate(-90 415 88)" filter="url(#glow)"/>
+            stroke-dasharray="274.58 289.03" transform="rotate(-90 415 88)"/>
     <text x="415" y="95" class="mono" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">95%</text>
 
     <text x="415" y="171" class="sans" font-size="14" font-weight="800" letter-spacing="1.4" fill="#06B6D4" text-anchor="middle">SECURITY</text>
@@ -88,7 +88,7 @@
     <circle cx="700" cy="88" r="58" fill="none" stroke="#F59E0B" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3 7" class="tickSpin"/>
     <circle cx="700" cy="88" r="46" fill="none" stroke="#1E293B" stroke-width="10"/>
     <circle cx="700" cy="88" r="46" fill="none" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"
-            stroke-dasharray="289.03 289.03" transform="rotate(-90 700 88)" filter="url(#glow)"/>
+            stroke-dasharray="289.03 289.03" transform="rotate(-90 700 88)"/>
     <text x="700" y="95" class="mono" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">100%</text>
 
     <text x="700" y="171" class="sans" font-size="14" font-weight="800" letter-spacing="1.4" fill="#F59E0B" text-anchor="middle">RESPONSIVE</text>
@@ -106,7 +106,7 @@
     <circle cx="985" cy="88" r="58" fill="none" stroke="#60A5FA" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3 7" class="tickSpin"/>
     <circle cx="985" cy="88" r="46" fill="none" stroke="#1E293B" stroke-width="10"/>
     <circle cx="985" cy="88" r="46" fill="none" stroke="#60A5FA" stroke-width="10" stroke-linecap="round"
-            stroke-dasharray="277.47 289.03" transform="rotate(-90 985 88)" filter="url(#glow)"/>
+            stroke-dasharray="277.47 289.03" transform="rotate(-90 985 88)"/>
     <text x="985" y="95" class="mono" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">96%</text>
 
     <text x="985" y="171" class="sans" font-size="14" font-weight="800" letter-spacing="1.4" fill="#60A5FA" text-anchor="middle">MAINTAIN</text>
@@ -124,7 +124,7 @@
     <circle cx="1270" cy="88" r="58" fill="none" stroke="#FB7185" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3 7" class="tickSpin"/>
     <circle cx="1270" cy="88" r="46" fill="none" stroke="#1E293B" stroke-width="10"/>
     <circle cx="1270" cy="88" r="46" fill="none" stroke="#FB7185" stroke-width="10" stroke-linecap="round"
-            stroke-dasharray="274.58 289.03" transform="rotate(-90 1270 88)" filter="url(#glow)"/>
+            stroke-dasharray="274.58 289.03" transform="rotate(-90 1270 88)"/>
     <text x="1270" y="95" class="mono" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">95%</text>
 
     <text x="1270" y="171" class="sans" font-size="14" font-weight="800" letter-spacing="1.4" fill="#FB7185" text-anchor="middle">QUALITY</text>

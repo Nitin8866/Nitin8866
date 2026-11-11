@@ -180,7 +180,7 @@
       <ellipse cx="1234" cy="52" rx="5" ry="11" fill="none" stroke="#34D399" stroke-width="1.6"/>
       <line x1="1223" y1="52" x2="1245" y2="52" stroke="#34D399" stroke-width="1.6"/>
     </g>
-    <circle class="dot-live" cx="1288" cy="97" r="4.5" fill="#22C55E" filter="url(#glow)"/>
+    <circle class="dot-live" cx="1288" cy="97" r="4.5" fill="#22C55E"/>
     <text x="1230" y="102" class="sans" font-size="14" font-weight="800" letter-spacing="2.6" fill="#34D399" text-anchor="middle">LOCATION</text>
     <text x="1234" y="138" class="sans" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">India</text>
     <text x="1234" y="168" class="sans" font-size="15.5" font-weight="500" fill="#94A3B8" text-anchor="middle">Remote Worldwide</text>

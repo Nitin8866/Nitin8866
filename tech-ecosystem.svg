@@ -96,23 +96,23 @@
 
     <!-- 2x2 Brand Pills -->
     <g class="p1">
-      <rect class="pg" x="28" y="96" width="188" height="62" rx="12" fill="#181214" stroke="#FF2D20" stroke-width="1.4"/>
-      <circle cx="54" cy="127" r="6" fill="#FF2D20" filter="url(#glow)"/>
+      <rect class="pg" x="28" y="96" width="188" height="62" rx="6" fill="#181214" stroke="#FF2D20" stroke-width="1.4"/>
+      <circle cx="54" cy="127" r="6" fill="#FF2D20"/>
       <text x="72" y="133" class="sans" font-size="18.5" font-weight="700" fill="#FFFFFF">Laravel</text>
     </g>
     <g class="p2">
-      <rect class="pg" x="232" y="96" width="188" height="62" rx="12" fill="#111A14" stroke="#339933" stroke-width="1.4"/>
-      <circle cx="258" cy="127" r="6" fill="#4ADE80" filter="url(#glow)"/>
+      <rect class="pg" x="232" y="96" width="188" height="62" rx="6" fill="#111A14" stroke="#339933" stroke-width="1.4"/>
+      <circle cx="258" cy="127" r="6" fill="#4ADE80"/>
       <text x="276" y="133" class="sans" font-size="18.5" font-weight="700" fill="#FFFFFF">Node.js</text>
     </g>
     <g class="p3">
-      <rect class="pg" x="28" y="176" width="188" height="62" rx="12" fill="#12141A" stroke="#94A3B8" stroke-width="1.4"/>
-      <circle cx="54" cy="207" r="6" fill="#E2E8F0" filter="url(#glow)"/>
+      <rect class="pg" x="28" y="176" width="188" height="62" rx="6" fill="#12141A" stroke="#94A3B8" stroke-width="1.4"/>
+      <circle cx="54" cy="207" r="6" fill="#E2E8F0"/>
       <text x="72" y="213" class="sans" font-size="18.5" font-weight="700" fill="#FFFFFF">Express.js</text>
     </g>
     <g class="p4">
-      <rect class="pg" x="232" y="176" width="188" height="62" rx="12" fill="#141522" stroke="#777BB4" stroke-width="1.4"/>
-      <circle cx="258" cy="207" r="6" fill="#818CF8" filter="url(#glow)"/>
+      <rect class="pg" x="232" y="176" width="188" height="62" rx="6" fill="#141522" stroke="#777BB4" stroke-width="1.4"/>
+      <circle cx="258" cy="207" r="6" fill="#818CF8"/>
       <text x="276" y="213" class="sans" font-size="18.5" font-weight="700" fill="#FFFFFF">PHP 8+</text>
     </g>
     <text x="224" y="270" class="mono" font-size="12.5" font-weight="600" fill="#94A3B8" text-anchor="middle">REST APIs • MVC • RBAC • Middleware</text>
@@ -132,33 +132,33 @@
 
     <!-- 3x2 Pills -->
     <g class="p1">
-      <rect class="pg" x="504" y="88" width="188" height="46" rx="11" fill="#0E1922" stroke="#61DAFB" stroke-width="1.3"/>
-      <circle cx="526" cy="111" r="5" fill="#61DAFB" filter="url(#glow)"/>
+      <rect class="pg" x="504" y="88" width="188" height="46" rx="6" fill="#0E1922" stroke="#61DAFB" stroke-width="1.3"/>
+      <circle cx="526" cy="111" r="5" fill="#61DAFB"/>
       <text x="542" y="117" class="sans" font-size="17" font-weight="700" fill="#FFFFFF">React</text>
     </g>
     <g class="p2">
-      <rect class="pg" x="708" y="88" width="188" height="46" rx="11" fill="#0C1726" stroke="#0EA5E9" stroke-width="1.3"/>
-      <circle cx="730" cy="111" r="5" fill="#38BDF8" filter="url(#glow)"/>
+      <rect class="pg" x="708" y="88" width="188" height="46" rx="6" fill="#0C1726" stroke="#0EA5E9" stroke-width="1.3"/>
+      <circle cx="730" cy="111" r="5" fill="#38BDF8"/>
       <text x="746" y="117" class="sans" font-size="17" font-weight="700" fill="#FFFFFF">Flutter</text>
     </g>
     <g class="p3">
-      <rect class="pg" x="504" y="146" width="188" height="46" rx="11" fill="#1C1A0E" stroke="#FACC15" stroke-width="1.3"/>
-      <circle cx="526" cy="169" r="5" fill="#FACC15" filter="url(#glow)"/>
+      <rect class="pg" x="504" y="146" width="188" height="46" rx="6" fill="#1C1A0E" stroke="#FACC15" stroke-width="1.3"/>
+      <circle cx="526" cy="169" r="5" fill="#FACC15"/>
       <text x="542" y="175" class="sans" font-size="17" font-weight="700" fill="#FFFFFF">JavaScript</text>
     </g>
     <g class="p4">
-      <rect class="pg" x="708" y="146" width="188" height="46" rx="11" fill="#0C1C22" stroke="#06B6D4" stroke-width="1.3"/>
-      <circle cx="730" cy="169" r="5" fill="#22D3EE" filter="url(#glow)"/>
+      <rect class="pg" x="708" y="146" width="188" height="46" rx="6" fill="#0C1C22" stroke="#06B6D4" stroke-width="1.3"/>
+      <circle cx="730" cy="169" r="5" fill="#22D3EE"/>
       <text x="746" y="175" class="sans" font-size="17" font-weight="700" fill="#FFFFFF">TailwindCSS</text>
     </g>
     <g class="p5">
-      <rect class="pg" x="504" y="204" width="188" height="46" rx="11" fill="#171324" stroke="#7952B3" stroke-width="1.3"/>
-      <circle cx="526" cy="227" r="5" fill="#A78BFA" filter="url(#glow)"/>
+      <rect class="pg" x="504" y="204" width="188" height="46" rx="6" fill="#171324" stroke="#7952B3" stroke-width="1.3"/>
+      <circle cx="526" cy="227" r="5" fill="#A78BFA"/>
       <text x="542" y="233" class="sans" font-size="17" font-weight="700" fill="#FFFFFF">Bootstrap</text>
     </g>
     <g class="p6">
-      <rect class="pg" x="708" y="204" width="188" height="46" rx="11" fill="#181226" stroke="#7F52FF" stroke-width="1.3"/>
-      <circle cx="730" cy="227" r="5" fill="#C084FC" filter="url(#glow)"/>
+      <rect class="pg" x="708" y="204" width="188" height="46" rx="6" fill="#181226" stroke="#7F52FF" stroke-width="1.3"/>
+      <circle cx="730" cy="227" r="5" fill="#C084FC"/>
       <text x="746" y="233" class="sans" font-size="17" font-weight="700" fill="#FFFFFF">Kotlin</text>
     </g>
     <text x="700" y="274" class="mono" font-size="12.5" font-weight="600" fill="#94A3B8" text-anchor="middle">Responsive UI • PWAs • Cross-Platform</text>
@@ -178,23 +178,23 @@
     <text x="1088" y="54" class="sans" font-size="16" font-weight="800" letter-spacing="1.6" fill="#34D399">DATABASE &amp; TOOLING</text>
 
     <g class="p1">
-      <rect class="pg" x="980" y="96" width="188" height="62" rx="12" fill="#0F1E14" stroke="#4EA94B" stroke-width="1.4"/>
-      <circle cx="1006" cy="127" r="6" fill="#4ADE80" filter="url(#glow)"/>
+      <rect class="pg" x="980" y="96" width="188" height="62" rx="6" fill="#0F1E14" stroke="#4EA94B" stroke-width="1.4"/>
+      <circle cx="1006" cy="127" r="6" fill="#4ADE80"/>
       <text x="1024" y="133" class="sans" font-size="18.5" font-weight="700" fill="#FFFFFF">MongoDB</text>
     </g>
     <g class="p2">
-      <rect class="pg" x="1184" y="96" width="188" height="62" rx="12" fill="#101A24" stroke="#4479A1" stroke-width="1.4"/>
-      <circle cx="1210" cy="127" r="6" fill="#60A5FA" filter="url(#glow)"/>
+      <rect class="pg" x="1184" y="96" width="188" height="62" rx="6" fill="#101A24" stroke="#4479A1" stroke-width="1.4"/>
+      <circle cx="1210" cy="127" r="6" fill="#60A5FA"/>
       <text x="1228" y="133" class="sans" font-size="18.5" font-weight="700" fill="#FFFFFF">MySQL</text>
     </g>
     <g class="p3">
-      <rect class="pg" x="980" y="176" width="188" height="62" rx="12" fill="#1F1310" stroke="#F05032" stroke-width="1.4"/>
-      <circle cx="1006" cy="207" r="6" fill="#FB923C" filter="url(#glow)"/>
+      <rect class="pg" x="980" y="176" width="188" height="62" rx="6" fill="#1F1310" stroke="#F05032" stroke-width="1.4"/>
+      <circle cx="1006" cy="207" r="6" fill="#FB923C"/>
       <text x="1024" y="213" class="sans" font-size="18.5" font-weight="700" fill="#FFFFFF">Git</text>
     </g>
     <g class="p4">
-      <rect class="pg" x="1184" y="176" width="188" height="62" rx="12" fill="#1E1216" stroke="#F24E1E" stroke-width="1.4"/>
-      <circle cx="1210" cy="207" r="6" fill="#FB7185" filter="url(#glow)"/>
+      <rect class="pg" x="1184" y="176" width="188" height="62" rx="6" fill="#1E1216" stroke="#F24E1E" stroke-width="1.4"/>
+      <circle cx="1210" cy="207" r="6" fill="#FB7185"/>
       <text x="1228" y="213" class="sans" font-size="18.5" font-weight="700" fill="#FFFFFF">Figma</text>
     </g>
     <text x="1176" y="270" class="mono" font-size="12.5" font-weight="600" fill="#94A3B8" text-anchor="middle">Query Tuning • Git Workflows • UI/UX</text>

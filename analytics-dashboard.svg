@@ -78,9 +78,9 @@
     </g>
     <rect x="0.75" y="6.75" width="534.5" height="384.5" rx="17.5" fill="none" stroke="url(#anBdL)" stroke-width="1.5"/>
 
-    <circle cx="34" cy="42" r="5" fill="#FB7185" filter="url(#glow)"/>
+    <circle cx="34" cy="42" r="5" fill="#FB7185"/>
     <text x="50" y="47" class="sans" font-size="16" font-weight="800" letter-spacing="1.4" fill="#FFFFFF">PRIMARY LANGUAGE USAGE</text>
-    <rect x="424" y="29" width="84" height="24" rx="12" fill="#1E1418" stroke="#F59E0B" stroke-opacity="0.45" stroke-width="1"/>
+    <rect x="424" y="29" width="84" height="24" rx="4" fill="#1E1418" stroke="#F59E0B" stroke-opacity="0.45" stroke-width="1"/>
     <text x="466" y="45" class="mono" font-size="11" font-weight="700" fill="#FBBF24" text-anchor="middle">6 STACKS</text>
 
     <!-- Rotating subtle outer ring -->
@@ -94,32 +94,32 @@
     <text x="142" y="238" class="mono" font-size="11" font-weight="700" letter-spacing="1" fill="#94A3B8" text-anchor="middle">FULL-STACK</text>
 
     
-    <circle cx="272" cy="114" r="5" fill="#FB7185" filter="url(#glow)"/>
+    <circle cx="272" cy="114" r="5" fill="#FB7185"/>
     <text x="288" y="119" class="sans" font-size="14" font-weight="600" fill="#E2E8F0">PHP / Laravel</text>
     <text x="506" y="119" class="mono" font-size="14" font-weight="700" fill="#FB7185" text-anchor="end">35%</text>
     <rect x="288" y="128" width="218" height="5" rx="2.5" fill="#1E293B"/>
     <rect x="288" y="128" width="200" height="5" rx="2.5" fill="#FB7185"/>
-    <circle cx="272" cy="158" r="5" fill="#FBBF24" filter="url(#glow)"/>
+    <circle cx="272" cy="158" r="5" fill="#FBBF24"/>
     <text x="288" y="163" class="sans" font-size="14" font-weight="600" fill="#E2E8F0">JavaScript / React</text>
     <text x="506" y="163" class="mono" font-size="14" font-weight="700" fill="#FBBF24" text-anchor="end">25%</text>
     <rect x="288" y="172" width="218" height="5" rx="2.5" fill="#1E293B"/>
     <rect x="288" y="172" width="142" height="5" rx="2.5" fill="#FBBF24"/>
-    <circle cx="272" cy="202" r="5" fill="#38BDF8" filter="url(#glow)"/>
+    <circle cx="272" cy="202" r="5" fill="#38BDF8"/>
     <text x="288" y="207" class="sans" font-size="14" font-weight="600" fill="#E2E8F0">Dart / Flutter</text>
     <text x="506" y="207" class="mono" font-size="14" font-weight="700" fill="#38BDF8" text-anchor="end">20%</text>
     <rect x="288" y="216" width="218" height="5" rx="2.5" fill="#1E293B"/>
     <rect x="288" y="216" width="114" height="5" rx="2.5" fill="#38BDF8"/>
-    <circle cx="272" cy="246" r="5" fill="#2DD4BF" filter="url(#glow)"/>
+    <circle cx="272" cy="246" r="5" fill="#2DD4BF"/>
     <text x="288" y="251" class="sans" font-size="14" font-weight="600" fill="#E2E8F0">Python</text>
     <text x="506" y="251" class="mono" font-size="14" font-weight="700" fill="#2DD4BF" text-anchor="end">10%</text>
     <rect x="288" y="260" width="218" height="5" rx="2.5" fill="#1E293B"/>
     <rect x="288" y="260" width="57" height="5" rx="2.5" fill="#2DD4BF"/>
-    <circle cx="272" cy="290" r="5" fill="#818CF8" filter="url(#glow)"/>
+    <circle cx="272" cy="290" r="5" fill="#818CF8"/>
     <text x="288" y="295" class="sans" font-size="14" font-weight="600" fill="#E2E8F0">Java / Kotlin</text>
     <text x="506" y="295" class="mono" font-size="14" font-weight="700" fill="#818CF8" text-anchor="end">7%</text>
     <rect x="288" y="304" width="218" height="5" rx="2.5" fill="#1E293B"/>
     <rect x="288" y="304" width="40" height="5" rx="2.5" fill="#818CF8"/>
-    <circle cx="272" cy="334" r="5" fill="#34D399" filter="url(#glow)"/>
+    <circle cx="272" cy="334" r="5" fill="#34D399"/>
     <text x="288" y="339" class="sans" font-size="14" font-weight="600" fill="#E2E8F0">C / C++</text>
     <text x="506" y="339" class="mono" font-size="14" font-weight="700" fill="#34D399" text-anchor="end">3%</text>
     <rect x="288" y="348" width="218" height="5" rx="2.5" fill="#1E293B"/>
@@ -134,21 +134,21 @@
     </g>
     <rect x="564.75" y="6.75" width="834.5" height="384.5" rx="17.5" fill="none" stroke="url(#anBdR)" stroke-width="1.5"/>
 
-    <circle cx="598" cy="42" r="5" fill="#38BDF8" filter="url(#glow)"/>
+    <circle cx="598" cy="42" r="5" fill="#38BDF8"/>
     <text x="614" y="47" class="sans" font-size="16" font-weight="800" letter-spacing="1.4" fill="#FFFFFF">CONTRIBUTION PULSE &amp; TELEMETRY</text>
     <text x="1368" y="46" class="mono" font-size="11.5" font-weight="700" fill="#34D399" text-anchor="end">VERIFIED GITHUB VELOCITY</text>
 
     
-    <rect x="596" y="78" width="180" height="56" rx="12" fill="#0B1018" stroke="#F59E0B" stroke-opacity="0.38" stroke-width="1.1"/>
+    <rect x="596" y="78" width="180" height="56" rx="6" fill="#0B1018" stroke="#F59E0B" stroke-opacity="0.38" stroke-width="1.1"/>
     <text x="612" y="101" class="sans" font-size="11.5" font-weight="600" fill="#94A3B8">Lifetime Git</text>
     <text x="612" y="122" class="mono" font-size="15" font-weight="800" fill="#F59E0B">584+ COMMITS</text>
-    <rect x="790" y="78" width="180" height="56" rx="12" fill="#0B1018" stroke="#10B981" stroke-opacity="0.38" stroke-width="1.1"/>
+    <rect x="790" y="78" width="180" height="56" rx="6" fill="#0B1018" stroke="#10B981" stroke-opacity="0.38" stroke-width="1.1"/>
     <text x="806" y="101" class="sans" font-size="11.5" font-weight="600" fill="#94A3B8">Active Timeline</text>
     <text x="806" y="122" class="mono" font-size="15" font-weight="800" fill="#10B981">SINCE 2023</text>
-    <rect x="984" y="78" width="180" height="56" rx="12" fill="#0B1018" stroke="#38BDF8" stroke-opacity="0.38" stroke-width="1.1"/>
+    <rect x="984" y="78" width="180" height="56" rx="6" fill="#0B1018" stroke="#38BDF8" stroke-opacity="0.38" stroke-width="1.1"/>
     <text x="1000" y="101" class="sans" font-size="11.5" font-weight="600" fill="#94A3B8">Full-Stack Mix</text>
     <text x="1000" y="122" class="mono" font-size="15" font-weight="800" fill="#38BDF8">6 CORE LANGS</text>
-    <rect x="1178" y="78" width="180" height="56" rx="12" fill="#0B1018" stroke="#FB7185" stroke-opacity="0.38" stroke-width="1.1"/>
+    <rect x="1178" y="78" width="180" height="56" rx="6" fill="#0B1018" stroke="#FB7185" stroke-opacity="0.38" stroke-width="1.1"/>
     <text x="1194" y="101" class="sans" font-size="11.5" font-weight="600" fill="#94A3B8">Automated Sync</text>
     <text x="1194" y="122" class="mono" font-size="15" font-weight="800" fill="#FB7185">LIVE CI/CD</text>
 
@@ -163,7 +163,7 @@
     <g clip-path="url(#plotClip)">
       <rect class="chartBeam" x="618" y="152" width="110" height="190" fill="url(#chartScan)"/>
     </g>
-    <path d="M 636,314 C 671.5,314 679.5,286 715,286 C 751.0,286 759.0,294 795,294 C 831.0,294 839.0,232 875,232 C 911.0,232 919.0,252 955,252 C 991.0,252 999.0,198 1035,198 C 1071.0,198 1079.0,214 1115,214 C 1151.0,214 1159.0,178 1195,178 C 1231.0,178 1239.0,188 1275,188 C 1309.7,188 1317.3,166 1352,166 " fill="none" stroke="url(#waveStroke)" stroke-width="3.2" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M 636,314 C 671.5,314 679.5,286 715,286 C 751.0,286 759.0,294 795,294 C 831.0,294 839.0,232 875,232 C 911.0,232 919.0,252 955,252 C 991.0,252 999.0,198 1035,198 C 1071.0,198 1079.0,214 1115,214 C 1151.0,214 1159.0,178 1195,178 C 1231.0,178 1239.0,188 1275,188 C 1309.7,188 1317.3,166 1352,166 " fill="none" stroke="url(#waveStroke)" stroke-width="3.2" stroke-linecap="round"/>
     
     <circle cx="636" cy="314" r="8" fill="#F59E0B" fill-opacity="0.22" class="nodePulse0"/>
     <circle cx="636" cy="314" r="4.2" fill="#0D1117" stroke="#F59E0B" stroke-width="2.4"/>
