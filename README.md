@@ -62,58 +62,19 @@
 <a name="overview"></a>
 <h2 align="center">EXECUTIVE SUMMARY</h2>
 
-<table width="100%" align="center">
-  <tr>
-    <td width="25%" align="center" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
-      <font color="#8E2DE2" size="4"><strong>DEGREE</strong></font><br/>
-      <font color="#8B949E" size="2">B.S. Information Tech</font><br/>
-      <font color="#C9D1D9" size="2">DRS. K. & P. Patel Univ.</font>
-    </td>
-    <td width="25%" align="center" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
-      <font color="#8E2DE2" size="4"><strong>STACK</strong></font><br/>
-      <font color="#8B949E" size="2">Laravel &bull; MERN &bull; Flutter</font><br/>
-      <font color="#C9D1D9" size="2">Full Stack Architecture</font>
-    </td>
-    <td width="25%" align="center" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
-      <font color="#8E2DE2" size="4"><strong>FOCUS</strong></font><br/>
-      <font color="#8B949E" size="2">Admin Panels &bull; CRMs &bull; PWAs</font><br/>
-      <font color="#C9D1D9" size="2">Enterprise Web & Mobile</font>
-    </td>
-    <td width="25%" align="center" bgcolor="#0D1117" style="padding:16px; border:1px solid #21262D; border-radius:10px;">
-      <font color="#8E2DE2" size="4"><strong>LOCATION</strong></font><br/>
-      <font color="#8B949E" size="2">India</font><br/>
-      <font color="#C9D1D9" size="2">Remote Worldwide</font>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./executive-summary.svg" alt="Executive Summary — Degree, Stack, Focus, Location" width="100%"/>
+</div>
 
 <br/>
 
 <!-- ABOUT ME -->
 <a name="about-me"></a>
-<table width="100%">
-  <tr>
-    <td width="65%" valign="top" bgcolor="#0D1117" style="padding:20px; border:1px solid #21262D; border-radius:12px;">
-      <h3>DEVELOPER PROFILE</h3>
-      <p>
-        Full Stack Engineer dedicated to designing high-throughput web applications, modular admin systems, and multi-platform mobile solutions. Possessing strong technical foundation in computer science and software development.
-      </p>
-      <ul>
-        <li><strong>Academic Degree:</strong> Bachelor of Science in Information Technology at DRS. Kiran & Pallavi Patel Global University.</li>
-        <li><strong>Core Specialization:</strong> End-to-end development using <strong>Laravel</strong>, <strong>MERN Stack (MongoDB, Express, React, Node.js)</strong>, and <strong>Flutter</strong>.</li>
-        <li><strong>Current Focus:</strong> Architecting scalable Laravel backend systems, standardizing shared Blade component trees, and engineering responsive React UI patterns.</li>
-        <li><strong>Development Philosophy:</strong> Prioritizing clean code structure, modular software design, pixel-perfect user interface rendering, and optimal performance.</li>
-        <li><strong>Direct Communication:</strong> <a href="mailto:nitinmaharaj8866@gmail.com">nitinmaharaj8866@gmail.com</a></li>
-      </ul>
-    </td>
-    <td width="35%" align="center" valign="middle" bgcolor="#0D1117" style="padding:20px; border:1px solid #21262D; border-radius:12px;">
-      <img src="https://skillicons.dev/icons?i=js" width="90" alt="JavaScript Logo"/>
-      <br/><br/>
-      <font color="#8E2DE2" size="2"><strong>ENGINEERING MATRIX</strong></font><br/>
-      <font color="#8B949E" size="2">Clean Code &bull; Microservices &bull; Responsive UI</font>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="mailto:nitinmaharaj8866@gmail.com">
+    <img src="./developer-profile.svg" alt="Developer Profile &amp; Engineering Matrix — Nitin Maharaj" width="100%"/>
+  </a>
+</div>
 
 <hr />
 

@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 210" width="1400" height="210" role="img" aria-label="Executive Summary — Degree, Stack, Focus, Location">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="60%" stop-color="#111624"/>
+      <stop offset="100%" stop-color="#161129"/>
+    </linearGradient>
+
+    <linearGradient id="borderPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+    </linearGradient>
+
+    <linearGradient id="borderBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+    </linearGradient>
+
+    <linearGradient id="borderCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#8E2DE2" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+    </linearGradient>
+
+    <linearGradient id="borderGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+    </linearGradient>
+
+    <!-- Diagonal sweep shimmer gradient -->
+    <linearGradient id="shimmerSweep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#C084FC" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#E9D5FF" stop-opacity="0.16"/>
+      <stop offset="55%" stop-color="#60A5FA" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="topBar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/><stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="topBar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/><stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="topBar3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="topBar4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22C55E"/><stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <filter id="cardShadow" x="-8%" y="-12%" width="116%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="clip1"><rect x="0" y="6" width="332" height="196" rx="16"/></clipPath>
+    <clipPath id="clip2"><rect x="356" y="6" width="332" height="196" rx="16"/></clipPath>
+    <clipPath id="clip3"><rect x="712" y="6" width="332" height="196" rx="16"/></clipPath>
+    <clipPath id="clip4"><rect x="1068" y="6" width="332" height="196" rx="16"/></clipPath>
+
+    <style><![CDATA[
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      @keyframes riseIn {
+        0%   { opacity: 0; transform: translateY(18px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes floatIcon {
+        0%, 100% { transform: translateY(0px); }
+        50%      { transform: translateY(-3.5px); }
+      }
+      @keyframes sweep1 {
+        0%, 100% { transform: translateX(-380px); opacity: 0; }
+        5%       { opacity: 1; }
+        22%      { transform: translateX(380px); opacity: 1; }
+        25%      { opacity: 0; }
+      }
+      @keyframes sweep2 {
+        0%, 24%  { transform: translateX(-380px); opacity: 0; }
+        29%      { opacity: 1; }
+        46%      { transform: translateX(380px); opacity: 1; }
+        49%, 100%{ opacity: 0; }
+      }
+      @keyframes sweep3 {
+        0%, 48%  { transform: translateX(-380px); opacity: 0; }
+        53%      { opacity: 1; }
+        70%      { transform: translateX(380px); opacity: 1; }
+        73%, 100%{ opacity: 0; }
+      }
+      @keyframes sweep4 {
+        0%, 72%  { transform: translateX(-380px); opacity: 0; }
+        77%      { opacity: 1; }
+        94%      { transform: translateX(380px); opacity: 1; }
+        97%, 100%{ opacity: 0; }
+      }
+      @keyframes borderPulse {
+        0%, 100% { stroke-opacity: 0.45; }
+        50%      { stroke-opacity: 0.95; }
+      }
+      @keyframes pulseLive {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50%      { opacity: 0.45; transform: scale(1.35); }
+      }
+
+      .c1 { opacity: 0; animation: riseIn 0.50s cubic-bezier(0.22,1,0.36,1) 0.05s forwards; }
+      .c2 { opacity: 0; animation: riseIn 0.50s cubic-bezier(0.22,1,0.36,1) 0.15s forwards; }
+      .c3 { opacity: 0; animation: riseIn 0.50s cubic-bezier(0.22,1,0.36,1) 0.25s forwards; }
+      .c4 { opacity: 0; animation: riseIn 0.50s cubic-bezier(0.22,1,0.36,1) 0.35s forwards; }
+
+      .i1 { animation: floatIcon 3.2s ease-in-out 0.0s infinite; }
+      .i2 { animation: floatIcon 3.2s ease-in-out 0.8s infinite; }
+      .i3 { animation: floatIcon 3.2s ease-in-out 1.6s infinite; }
+      .i4 { animation: floatIcon 3.2s ease-in-out 2.4s infinite; }
+
+      .s1 { animation: sweep1 7.2s ease-in-out infinite; }
+      .s2 { animation: sweep2 7.2s ease-in-out infinite; }
+      .s3 { animation: sweep3 7.2s ease-in-out infinite; }
+      .s4 { animation: sweep4 7.2s ease-in-out infinite; }
+
+      .bp1 { animation: borderPulse 3.6s ease-in-out 0.0s infinite; }
+      .bp2 { animation: borderPulse 3.6s ease-in-out 0.9s infinite; }
+      .bp3 { animation: borderPulse 3.6s ease-in-out 1.8s infinite; }
+      .bp4 { animation: borderPulse 3.6s ease-in-out 2.7s infinite; }
+      .dot-live { transform-box: fill-box; transform-origin: center; animation: pulseLive 2.2s ease-in-out infinite; }
+    ]]></style>
+  </defs>
+
+  <!-- CARD 1: DEGREE -->
+  <g class="c1" filter="url(#cardShadow)">
+    <g clip-path="url(#clip1)">
+      <rect x="0" y="6" width="332" height="196" rx="16" fill="url(#cardBg)"/>
+      <rect x="0" y="6" width="332" height="4" fill="url(#topBar1)"/>
+      <rect class="s1" x="0" y="6" width="332" height="196" fill="url(#shimmerSweep)"/>
+    </g>
+    <rect class="bp1" x="0.75" y="6.75" width="330.5" height="194.5" rx="15.5" fill="none" stroke="url(#borderPurple)" stroke-width="1.5"/>
+    <!-- Icon -->
+    <g class="i1">
+      <circle cx="166" cy="52" r="21" fill="#8E2DE2" fill-opacity="0.18" stroke="#A855F7" stroke-opacity="0.45" stroke-width="1.2"/>
+      <path d="M166 41 L181 48 L166 55 L151 48 Z" fill="none" stroke="#C084FC" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M156 51 V59 C156 61.5 176 61.5 176 59 V51" fill="none" stroke="#C084FC" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <text x="166" y="102" class="sans" font-size="14" font-weight="800" letter-spacing="2.6" fill="#C084FC" text-anchor="middle">DEGREE</text>
+    <text x="166" y="138" class="sans" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">B.S. Information Tech</text>
+    <text x="166" y="168" class="sans" font-size="15.5" font-weight="500" fill="#94A3B8" text-anchor="middle">DRS. K. &amp; P. Patel Univ.</text>
+  </g>
+
+  <!-- CARD 2: STACK -->
+  <g class="c2" filter="url(#cardShadow)">
+    <g clip-path="url(#clip2)">
+      <rect x="356" y="6" width="332" height="196" rx="16" fill="url(#cardBg)"/>
+      <rect x="356" y="6" width="332" height="4" fill="url(#topBar2)"/>
+      <rect class="s2" x="356" y="6" width="332" height="196" fill="url(#shimmerSweep)"/>
+    </g>
+    <rect class="bp2" x="356.75" y="6.75" width="330.5" height="194.5" rx="15.5" fill="none" stroke="url(#borderBlue)" stroke-width="1.5"/>
+    <g class="i2">
+      <circle cx="522" cy="52" r="21" fill="#6366F1" fill-opacity="0.18" stroke="#818CF8" stroke-opacity="0.45" stroke-width="1.2"/>
+      <path d="M522 40 L535 46.5 L522 53 L509 46.5 Z" fill="none" stroke="#818CF8" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M509 52.5 L522 59 L535 52.5" fill="none" stroke="#818CF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M509 58 L522 64.5 L535 58" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="522" y="102" class="sans" font-size="14" font-weight="800" letter-spacing="2.6" fill="#818CF8" text-anchor="middle">STACK</text>
+    <text x="522" y="138" class="sans" font-size="20.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Laravel • MERN • Flutter</text>
+    <text x="522" y="168" class="sans" font-size="15.5" font-weight="500" fill="#94A3B8" text-anchor="middle">Full Stack Architecture</text>
+  </g>
+
+  <!-- CARD 3: FOCUS -->
+  <g class="c3" filter="url(#cardShadow)">
+    <g clip-path="url(#clip3)">
+      <rect x="712" y="6" width="332" height="196" rx="16" fill="url(#cardBg)"/>
+      <rect x="712" y="6" width="332" height="4" fill="url(#topBar3)"/>
+      <rect class="s3" x="712" y="6" width="332" height="196" fill="url(#shimmerSweep)"/>
+    </g>
+    <rect class="bp3" x="712.75" y="6.75" width="330.5" height="194.5" rx="15.5" fill="none" stroke="url(#borderCyan)" stroke-width="1.5"/>
+    <g class="i3">
+      <circle cx="878" cy="52" r="21" fill="#38BDF8" fill-opacity="0.16" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1.2"/>
+      <rect x="867" y="42" width="9" height="9" rx="2" fill="none" stroke="#38BDF8" stroke-width="2"/>
+      <rect x="880" y="42" width="9" height="9" rx="2" fill="none" stroke="#38BDF8" stroke-width="2"/>
+      <rect x="867" y="54" width="9" height="9" rx="2" fill="none" stroke="#C084FC" stroke-width="2"/>
+      <rect x="880" y="54" width="9" height="9" rx="2" fill="none" stroke="#38BDF8" stroke-width="2"/>
+    </g>
+    <text x="878" y="102" class="sans" font-size="14" font-weight="800" letter-spacing="2.6" fill="#38BDF8" text-anchor="middle">FOCUS</text>
+    <text x="878" y="138" class="sans" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Admin Panels • CRMs • PWAs</text>
+    <text x="878" y="168" class="sans" font-size="15.5" font-weight="500" fill="#94A3B8" text-anchor="middle">Enterprise Web &amp; Mobile</text>
+  </g>
+
+  <!-- CARD 4: LOCATION -->
+  <g class="c4" filter="url(#cardShadow)">
+    <g clip-path="url(#clip4)">
+      <rect x="1068" y="6" width="332" height="196" rx="16" fill="url(#cardBg)"/>
+      <rect x="1068" y="6" width="332" height="4" fill="url(#topBar4)"/>
+      <rect class="s4" x="1068" y="6" width="332" height="196" fill="url(#shimmerSweep)"/>
+    </g>
+    <rect class="bp4" x="1068.75" y="6.75" width="330.5" height="194.5" rx="15.5" fill="none" stroke="url(#borderGreen)" stroke-width="1.5"/>
+    <g class="i4">
+      <circle cx="1234" cy="52" r="21" fill="#22C55E" fill-opacity="0.16" stroke="#4ADE80" stroke-opacity="0.45" stroke-width="1.2"/>
+      <circle cx="1234" cy="52" r="11" fill="none" stroke="#4ADE80" stroke-width="2"/>
+      <ellipse cx="1234" cy="52" rx="5" ry="11" fill="none" stroke="#4ADE80" stroke-width="1.6"/>
+      <line x1="1223" y1="52" x2="1245" y2="52" stroke="#4ADE80" stroke-width="1.6"/>
+    </g>
+    <circle class="dot-live" cx="1288" cy="97" r="4.5" fill="#22C55E" filter="url(#glow)"/>
+    <text x="1230" y="102" class="sans" font-size="14" font-weight="800" letter-spacing="2.6" fill="#4ADE80" text-anchor="middle">LOCATION</text>
+    <text x="1234" y="138" class="sans" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">India</text>
+    <text x="1234" y="168" class="sans" font-size="15.5" font-weight="500" fill="#94A3B8" text-anchor="middle">Remote Worldwide</text>
+  </g>
+</svg>
