@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 202" width="1400" height="202" role="img" aria-label="Achievements &amp; Milestones">
+  <defs>
+    
+    <filter id="cardShadow" x="-6%" y="-10%" width="112%" height="126%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000000" flood-opacity="0.54"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="sheenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="46%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.09"/>
+      <stop offset="54%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="barSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    
+    <clipPath id="ac0"><rect x="0" y="6" width="332" height="86" rx="16"/></clipPath>
+    <clipPath id="ac1"><rect x="356" y="6" width="332" height="86" rx="16"/></clipPath>
+    <clipPath id="ac2"><rect x="712" y="6" width="332" height="86" rx="16"/></clipPath>
+    <clipPath id="ac3"><rect x="1068" y="6" width="332" height="86" rx="16"/></clipPath>
+    <clipPath id="ac4"><rect x="0" y="108" width="332" height="86" rx="16"/></clipPath>
+    <clipPath id="ac5"><rect x="356" y="108" width="332" height="86" rx="16"/></clipPath>
+    <clipPath id="ac6"><rect x="712" y="108" width="332" height="86" rx="16"/></clipPath>
+    <clipPath id="ac7"><rect x="1068" y="108" width="332" height="86" rx="16"/></clipPath>
+    <style><![CDATA[
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace; }
+      @keyframes swA { 0%, 100% { transform: translateX(-360px); } 26% { transform: translateX(360px); } }
+      @keyframes gl { 0%, 100% { opacity: 0.35; transform: scale(0.9); } 50% { opacity: 1; transform: scale(1.25); } }
+      .sw0 { animation: swA 7s ease-in-out 0.0s infinite; }
+      .sw1 { animation: swA 7s ease-in-out 1.4s infinite; }
+      .sw2 { animation: swA 7s ease-in-out 2.8s infinite; }
+      .sw3 { animation: swA 7s ease-in-out 4.2s infinite; }
+      .glint0 { transform-box: fill-box; transform-origin: center; animation: gl 2.8s ease-in-out 0.0s infinite; }
+      .glint1 { transform-box: fill-box; transform-origin: center; animation: gl 2.8s ease-in-out 0.7s infinite; }
+      .glint2 { transform-box: fill-box; transform-origin: center; animation: gl 2.8s ease-in-out 1.4s infinite; }
+      .glint3 { transform-box: fill-box; transform-origin: center; animation: gl 2.8s ease-in-out 2.1s infinite; }
+    ]]></style>
+  </defs>
+  
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#ac0)">
+      <rect x="0" y="6" width="332" height="86" rx="16" fill="#0F141D"/>
+      <circle cx="46" cy="49" r="52" fill="#FB7185" fill-opacity="0.11"/>
+      <rect class="sw0" x="0" y="6" width="332" height="86" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="0.75" y="6.75" width="330.5" height="84.5" rx="15.5" fill="none" stroke="#FB7185" stroke-opacity="0.38" stroke-width="1.3"/>
+    <polygon points="65.1,38.0 65.1,60.0 46.0,71.0 26.9,60.0 26.9,38.0 46.0,27.0" fill="#FB7185" fill-opacity="0.16" stroke="#FB7185" stroke-width="1.6"/>
+    <g transform="translate(46, 49)">
+      <path d="M0,-9 L8,0 L0,9 L-8,0 Z" fill="none" stroke="#FB7185" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="84" y="43" class="sans" font-size="16.5" font-weight="800" fill="#FFFFFF">Open Source</text>
+    <text x="84" y="66" class="mono" font-size="12.5" font-weight="600" fill="#94A3B8">Active Contributor</text>
+    <circle cx="306" cy="49" r="3.5" fill="#FB7185" class="glint0"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#ac1)">
+      <rect x="356" y="6" width="332" height="86" rx="16" fill="#0F141D"/>
+      <circle cx="402" cy="49" r="52" fill="#38BDF8" fill-opacity="0.11"/>
+      <rect class="sw1" x="356" y="6" width="332" height="86" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="356.75" y="6.75" width="330.5" height="84.5" rx="15.5" fill="none" stroke="#38BDF8" stroke-opacity="0.38" stroke-width="1.3"/>
+    <polygon points="421.1,38.0 421.1,60.0 402.0,71.0 382.9,60.0 382.9,38.0 402.0,27.0" fill="#38BDF8" fill-opacity="0.16" stroke="#38BDF8" stroke-width="1.6"/>
+    <g transform="translate(402, 49)">
+      <path d="M-7,-3 L7,-3 M-7,3 L7,3 M-4,-7 L-4,7 M4,-7 L4,7" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="440" y="43" class="sans" font-size="16.5" font-weight="800" fill="#FFFFFF">Full Stack</text>
+    <text x="440" y="66" class="mono" font-size="12.5" font-weight="600" fill="#94A3B8">End-to-End Systems</text>
+    <circle cx="662" cy="49" r="3.5" fill="#38BDF8" class="glint1"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#ac2)">
+      <rect x="712" y="6" width="332" height="86" rx="16" fill="#0F141D"/>
+      <circle cx="758" cy="49" r="52" fill="#0EA5E9" fill-opacity="0.11"/>
+      <rect class="sw2" x="712" y="6" width="332" height="86" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="712.75" y="6.75" width="330.5" height="84.5" rx="15.5" fill="none" stroke="#0EA5E9" stroke-opacity="0.38" stroke-width="1.3"/>
+    <polygon points="777.1,38.0 777.1,60.0 758.0,71.0 738.9,60.0 738.9,38.0 758.0,27.0" fill="#0EA5E9" fill-opacity="0.16" stroke="#0EA5E9" stroke-width="1.6"/>
+    <g transform="translate(758, 49)">
+      <path d="M-5,-7 L5,-7 L5,7 L-5,7 Z M-1,4 L1,4" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="796" y="43" class="sans" font-size="16.5" font-weight="800" fill="#FFFFFF">Mobile Dev</text>
+    <text x="796" y="66" class="mono" font-size="12.5" font-weight="600" fill="#94A3B8">Flutter Expert</text>
+    <circle cx="1018" cy="49" r="3.5" fill="#0EA5E9" class="glint2"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#ac3)">
+      <rect x="1068" y="6" width="332" height="86" rx="16" fill="#0F141D"/>
+      <circle cx="1114" cy="49" r="52" fill="#F97316" fill-opacity="0.11"/>
+      <rect class="sw3" x="1068" y="6" width="332" height="86" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="1068.75" y="6.75" width="330.5" height="84.5" rx="15.5" fill="none" stroke="#F97316" stroke-opacity="0.38" stroke-width="1.3"/>
+    <polygon points="1133.1,38.0 1133.1,60.0 1114.0,71.0 1094.9,60.0 1094.9,38.0 1114.0,27.0" fill="#F97316" fill-opacity="0.16" stroke="#F97316" stroke-width="1.6"/>
+    <g transform="translate(1114, 49)">
+      <path d="M-7,0 L-3,-5 M-7,0 L-3,5 M7,0 L3,-5 M7,0 L3,5 M-2,6 L2,-6" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="1152" y="43" class="sans" font-size="16.5" font-weight="800" fill="#FFFFFF">API Builder</text>
+    <text x="1152" y="66" class="mono" font-size="12.5" font-weight="600" fill="#94A3B8">Laravel &amp; REST</text>
+    <circle cx="1374" cy="49" r="3.5" fill="#F97316" class="glint3"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#ac4)">
+      <rect x="0" y="108" width="332" height="86" rx="16" fill="#0F141D"/>
+      <circle cx="46" cy="151" r="52" fill="#818CF8" fill-opacity="0.11"/>
+      <rect class="sw0" x="0" y="108" width="332" height="86" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="0.75" y="108.75" width="330.5" height="84.5" rx="15.5" fill="none" stroke="#818CF8" stroke-opacity="0.38" stroke-width="1.3"/>
+    <polygon points="65.1,140.0 65.1,162.0 46.0,173.0 26.9,162.0 26.9,140.0 46.0,129.0" fill="#818CF8" fill-opacity="0.16" stroke="#818CF8" stroke-width="1.6"/>
+    <g transform="translate(46, 151)">
+      <path d="M0,-8 A8,8 0 1,1 -7,-3 M0,-3 L4,0 L0,4" fill="none" stroke="#818CF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="84" y="145" class="sans" font-size="16.5" font-weight="800" fill="#FFFFFF">PWA Architect</text>
+    <text x="84" y="168" class="mono" font-size="12.5" font-weight="600" fill="#94A3B8">Offline-First UI</text>
+    <circle cx="306" cy="151" r="3.5" fill="#818CF8" class="glint0"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#ac5)">
+      <rect x="356" y="108" width="332" height="86" rx="16" fill="#0F141D"/>
+      <circle cx="402" cy="151" r="52" fill="#F472B6" fill-opacity="0.11"/>
+      <rect class="sw1" x="356" y="108" width="332" height="86" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="356.75" y="108.75" width="330.5" height="84.5" rx="15.5" fill="none" stroke="#F472B6" stroke-opacity="0.38" stroke-width="1.3"/>
+    <polygon points="421.1,140.0 421.1,162.0 402.0,173.0 382.9,162.0 382.9,140.0 402.0,129.0" fill="#F472B6" fill-opacity="0.16" stroke="#F472B6" stroke-width="1.6"/>
+    <g transform="translate(402, 151)">
+      <path d="M-6,4 L6,4 L0,-7 Z" fill="none" stroke="#F472B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="440" y="145" class="sans" font-size="16.5" font-weight="800" fill="#FFFFFF">UI / UX Craft</text>
+    <text x="440" y="168" class="mono" font-size="12.5" font-weight="600" fill="#94A3B8">Design-First UI</text>
+    <circle cx="662" cy="151" r="3.5" fill="#F472B6" class="glint1"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#ac6)">
+      <rect x="712" y="108" width="332" height="86" rx="16" fill="#0F141D"/>
+      <circle cx="758" cy="151" r="52" fill="#34D399" fill-opacity="0.11"/>
+      <rect class="sw2" x="712" y="108" width="332" height="86" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="712.75" y="108.75" width="330.5" height="84.5" rx="15.5" fill="none" stroke="#34D399" stroke-opacity="0.38" stroke-width="1.3"/>
+    <polygon points="777.1,140.0 777.1,162.0 758.0,173.0 738.9,162.0 738.9,140.0 758.0,129.0" fill="#34D399" fill-opacity="0.16" stroke="#34D399" stroke-width="1.6"/>
+    <g transform="translate(758, 151)">
+      <path d="M-7,-4 L7,-4 M-7,0 L7,0 M-7,4 L7,4" fill="none" stroke="#34D399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="796" y="145" class="sans" font-size="16.5" font-weight="800" fill="#FFFFFF">Backend Lead</text>
+    <text x="796" y="168" class="mono" font-size="12.5" font-weight="600" fill="#94A3B8">Node &amp; Services</text>
+    <circle cx="1018" cy="151" r="3.5" fill="#34D399" class="glint2"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#ac7)">
+      <rect x="1068" y="108" width="332" height="86" rx="16" fill="#0F141D"/>
+      <circle cx="1114" cy="151" r="52" fill="#FBBF24" fill-opacity="0.11"/>
+      <rect class="sw3" x="1068" y="108" width="332" height="86" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="1068.75" y="108.75" width="330.5" height="84.5" rx="15.5" fill="none" stroke="#FBBF24" stroke-opacity="0.38" stroke-width="1.3"/>
+    <polygon points="1133.1,140.0 1133.1,162.0 1114.0,173.0 1094.9,162.0 1094.9,140.0 1114.0,129.0" fill="#FBBF24" fill-opacity="0.16" stroke="#FBBF24" stroke-width="1.6"/>
+    <g transform="translate(1114, 151)">
+      <path d="M-6,-4 A6,2.5 0 1,0 6,-4 A6,2.5 0 1,0 -6,-4 M-6,-4 L-6,4 A6,2.5 0 0,0 6,4 L6,-4" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="1152" y="145" class="sans" font-size="16.5" font-weight="800" fill="#FFFFFF">Database Pro</text>
+    <text x="1152" y="168" class="mono" font-size="12.5" font-weight="600" fill="#94A3B8">MySQL &amp; MongoDB</text>
+    <circle cx="1374" cy="151" r="3.5" fill="#FBBF24" class="glint3"/>
+  </g>
+</svg>

@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 240" width="1400" height="240" role="img" aria-label="System Workflow Pipeline — Request to Persistence">
+  <defs>
+    
+    <filter id="cardShadow" x="-6%" y="-10%" width="112%" height="126%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000000" flood-opacity="0.54"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="sheenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="46%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.09"/>
+      <stop offset="54%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="barSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="wfc0"><rect x="0" y="86" width="332" height="142" rx="16"/></clipPath><clipPath id="wfc1"><rect x="356" y="86" width="332" height="142" rx="16"/></clipPath><clipPath id="wfc2"><rect x="712" y="86" width="332" height="142" rx="16"/></clipPath><clipPath id="wfc3"><rect x="1068" y="86" width="332" height="142" rx="16"/></clipPath>
+    <linearGradient id="busGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.55"/>
+      <stop offset="35%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#FB7185" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.55"/>
+    </linearGradient>
+    <clipPath id="busClip"><rect x="166" y="41" width="1068" height="6" rx="3"/></clipPath>
+    <style><![CDATA[
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace; }
+      @keyframes busScan { 0% { transform: translateX(-180px); } 100% { transform: translateX(1120px); } }
+      @keyframes wp { 0%, 100% { transform: scale(0.9); opacity: 0.35; } 50% { transform: scale(1.25); opacity: 0.85; } }
+      @keyframes wsw { 0%, 100% { transform: translateX(-360px); } 30% { transform: translateX(360px); } }
+      .busDot { animation: busScan 3.6s linear infinite; }
+      .wPulse0 { transform-box: fill-box; transform-origin: center; animation: wp 2.4s ease-in-out 0.0s infinite; }
+      .wPulse1 { transform-box: fill-box; transform-origin: center; animation: wp 2.4s ease-in-out 0.6s infinite; }
+      .wPulse2 { transform-box: fill-box; transform-origin: center; animation: wp 2.4s ease-in-out 1.2s infinite; }
+      .wPulse3 { transform-box: fill-box; transform-origin: center; animation: wp 2.4s ease-in-out 1.8s infinite; }
+      .wsw0 { animation: wsw 8s ease-in-out 0.0s infinite; }
+      .wsw1 { animation: wsw 8s ease-in-out 1.4s infinite; }
+      .wsw2 { animation: wsw 8s ease-in-out 2.8s infinite; }
+      .wsw3 { animation: wsw 8s ease-in-out 4.2s infinite; }
+    ]]></style>
+  </defs>
+
+  <!-- Main circuit bus rail -->
+  <rect x="166" y="41" width="1068" height="6" rx="3" fill="url(#busGrad)"/>
+  <g clip-path="url(#busClip)">
+    <rect x="166" y="41" width="140" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.78" class="busDot"/>
+  </g>
+
+  
+  <!-- Connector node on bus -->
+  <line x1="166" y1="44" x2="166" y2="86" stroke="#F59E0B" stroke-opacity="0.6" stroke-width="2"/>
+  <circle cx="166" cy="44" r="22" fill="#0D1117" stroke="#F59E0B" stroke-width="2"/>
+  <circle cx="166" cy="44" r="14" fill="#F59E0B" fill-opacity="0.20" class="wPulse0"/>
+  <text x="166" y="49" class="mono" font-size="12.5" font-weight="800" fill="#F59E0B" text-anchor="middle">01</text>
+
+  <!-- Stage card -->
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#wfc0)">
+      <rect x="0" y="86" width="332" height="142" rx="16" fill="#0E131C"/>
+      <circle cx="166" cy="96" r="95" fill="#F59E0B" fill-opacity="0.09"/>
+      <rect class="wsw0" x="0" y="86" width="332" height="142" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="0.75" y="86.75" width="330.5" height="140.5" rx="15.5" fill="none" stroke="#F59E0B" stroke-opacity="0.42" stroke-width="1.4"/>
+    <text x="166" y="116" class="mono" font-size="11.5" font-weight="800" letter-spacing="1.4" fill="#F59E0B" text-anchor="middle">STEP 01</text>
+    <text x="166" y="144" class="sans" font-size="17.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">CLIENT REQUEST</text>
+    <text x="166" y="176" class="sans" font-size="14" font-weight="400" fill="#94A3B8" text-anchor="middle">User interaction across</text>
+    <text x="166" y="198" class="sans" font-size="14" font-weight="400" fill="#94A3B8" text-anchor="middle">React, Blade &amp; Flutter UI</text>
+  </g>
+  <!-- Connector node on bus -->
+  <line x1="522" y1="44" x2="522" y2="86" stroke="#38BDF8" stroke-opacity="0.6" stroke-width="2"/>
+  <circle cx="522" cy="44" r="22" fill="#0D1117" stroke="#38BDF8" stroke-width="2"/>
+  <circle cx="522" cy="44" r="14" fill="#38BDF8" fill-opacity="0.20" class="wPulse1"/>
+  <text x="522" y="49" class="mono" font-size="12.5" font-weight="800" fill="#38BDF8" text-anchor="middle">02</text>
+
+  <!-- Stage card -->
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#wfc1)">
+      <rect x="356" y="86" width="332" height="142" rx="16" fill="#0E131C"/>
+      <circle cx="522" cy="96" r="95" fill="#38BDF8" fill-opacity="0.09"/>
+      <rect class="wsw1" x="356" y="86" width="332" height="142" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="356.75" y="86.75" width="330.5" height="140.5" rx="15.5" fill="none" stroke="#38BDF8" stroke-opacity="0.42" stroke-width="1.4"/>
+    <text x="522" y="116" class="mono" font-size="11.5" font-weight="800" letter-spacing="1.4" fill="#38BDF8" text-anchor="middle">STEP 02</text>
+    <text x="522" y="144" class="sans" font-size="17.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">GATEWAY &amp; AUTH</text>
+    <text x="522" y="176" class="sans" font-size="14" font-weight="400" fill="#94A3B8" text-anchor="middle">Route dispatcher &amp; JWT</text>
+    <text x="522" y="198" class="sans" font-size="14" font-weight="400" fill="#94A3B8" text-anchor="middle">/ Session verification</text>
+  </g>
+  <!-- Connector node on bus -->
+  <line x1="878" y1="44" x2="878" y2="86" stroke="#FB7185" stroke-opacity="0.6" stroke-width="2"/>
+  <circle cx="878" cy="44" r="22" fill="#0D1117" stroke="#FB7185" stroke-width="2"/>
+  <circle cx="878" cy="44" r="14" fill="#FB7185" fill-opacity="0.20" class="wPulse2"/>
+  <text x="878" y="49" class="mono" font-size="12.5" font-weight="800" fill="#FB7185" text-anchor="middle">03</text>
+
+  <!-- Stage card -->
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#wfc2)">
+      <rect x="712" y="86" width="332" height="142" rx="16" fill="#0E131C"/>
+      <circle cx="878" cy="96" r="95" fill="#FB7185" fill-opacity="0.09"/>
+      <rect class="wsw2" x="712" y="86" width="332" height="142" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="712.75" y="86.75" width="330.5" height="140.5" rx="15.5" fill="none" stroke="#FB7185" stroke-opacity="0.42" stroke-width="1.4"/>
+    <text x="878" y="116" class="mono" font-size="11.5" font-weight="800" letter-spacing="1.4" fill="#FB7185" text-anchor="middle">STEP 03</text>
+    <text x="878" y="144" class="sans" font-size="17.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">SERVICE LOGIC</text>
+    <text x="878" y="176" class="sans" font-size="14" font-weight="400" fill="#94A3B8" text-anchor="middle">Controller execution &amp;</text>
+    <text x="878" y="198" class="sans" font-size="14" font-weight="400" fill="#94A3B8" text-anchor="middle">domain service validation</text>
+  </g>
+  <!-- Connector node on bus -->
+  <line x1="1234" y1="44" x2="1234" y2="86" stroke="#10B981" stroke-opacity="0.6" stroke-width="2"/>
+  <circle cx="1234" cy="44" r="22" fill="#0D1117" stroke="#10B981" stroke-width="2"/>
+  <circle cx="1234" cy="44" r="14" fill="#10B981" fill-opacity="0.20" class="wPulse3"/>
+  <text x="1234" y="49" class="mono" font-size="12.5" font-weight="800" fill="#10B981" text-anchor="middle">04</text>
+
+  <!-- Stage card -->
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#wfc3)">
+      <rect x="1068" y="86" width="332" height="142" rx="16" fill="#0E131C"/>
+      <circle cx="1234" cy="96" r="95" fill="#10B981" fill-opacity="0.09"/>
+      <rect class="wsw3" x="1068" y="86" width="332" height="142" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="1068.75" y="86.75" width="330.5" height="140.5" rx="15.5" fill="none" stroke="#10B981" stroke-opacity="0.42" stroke-width="1.4"/>
+    <text x="1234" y="116" class="mono" font-size="11.5" font-weight="800" letter-spacing="1.4" fill="#10B981" text-anchor="middle">STEP 04</text>
+    <text x="1234" y="144" class="sans" font-size="17.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">DATA PERSISTENCE</text>
+    <text x="1234" y="176" class="sans" font-size="14" font-weight="400" fill="#94A3B8" text-anchor="middle">MySQL / MongoDB queries</text>
+    <text x="1234" y="198" class="sans" font-size="14" font-weight="400" fill="#94A3B8" text-anchor="middle">&amp; JSON payload response</text>
+  </g>
+</svg>

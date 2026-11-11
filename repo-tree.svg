@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 398" width="1400" height="398" role="img" aria-label="Workspace Repository Tree &amp; Architecture Map">
+  <defs>
+    
+    <filter id="cardShadow" x="-6%" y="-10%" width="112%" height="126%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000000" flood-opacity="0.54"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="sheenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="46%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.09"/>
+      <stop offset="54%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="barSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="rtBdL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.46"/><stop offset="100%" stop-color="#38BDF8" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="rtBdR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.46"/><stop offset="100%" stop-color="#FB7185" stop-opacity="0.28"/>
+    </linearGradient>
+    <clipPath id="rtClipL"><rect x="0" y="6" width="668" height="386" rx="18"/></clipPath>
+    <clipPath id="rtClipR"><rect x="694" y="6" width="706" height="386" rx="18"/></clipPath>
+    <style><![CDATA[
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace; }
+      @keyframes rowScan { 0% { transform: translateY(0px); opacity: 0.7; } 50% { transform: translateY(250px); opacity: 0.9; } 100% { transform: translateY(0px); opacity: 0.7; } }
+      .treeFocus { animation: rowScan 7.5s ease-in-out infinite; }
+    ]]></style>
+  </defs>
+
+  <!-- Left Explorer Panel -->
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#rtClipL)">
+      <rect x="0" y="6" width="668" height="386" rx="18" fill="#0D121B"/>
+      <rect x="20" y="68" width="628" height="24" rx="6" fill="#38BDF8" fill-opacity="0.09" class="treeFocus"/>
+    </g>
+    <rect x="0.75" y="6.75" width="666.5" height="384.5" rx="17.5" fill="none" stroke="url(#rtBdL)" stroke-width="1.5"/>
+
+    <circle cx="32" cy="40" r="5" fill="#F59E0B" filter="url(#glow)"/>
+    <text x="48" y="45" class="sans" font-size="15" font-weight="800" letter-spacing="1.4" fill="#FFFFFF">WORKSPACE EXPLORER</text>
+    <text x="644" y="44" class="mono" font-size="11.5" font-weight="700" fill="#38BDF8" text-anchor="end">LARAVEL + ACTIONS</text>
+    <line x1="24" y1="58" x2="644" y2="58" stroke="#1E293B" stroke-width="1"/>
+    
+    <path d="M32 75 h6 l2 2 h7 v10 h-15 z" fill="#F59E0B" fill-opacity="0.28" stroke="#F59E0B" stroke-width="1.3"/>
+    <text x="56" y="85" class="mono" font-size="13.5" font-weight="700" fill="#FFFFFF">nitin-maharaj-portfolio/</text>
+    <text x="644" y="85" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Root Workspace</text>
+    <path d="M54 100 h6 l2 2 h7 v10 h-15 z" fill="#38BDF8" fill-opacity="0.28" stroke="#38BDF8" stroke-width="1.3"/>
+    <text x="78" y="110" class="mono" font-size="13.5" font-weight="700" fill="#FFFFFF">.github/workflows/</text>
+    <text x="644" y="110" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">GitHub Actions</text>
+    <rect x="78" y="124" width="11" height="13" rx="2" fill="#34D399" fill-opacity="0.20" stroke="#34D399" stroke-width="1.2"/>
+    <text x="100" y="135" class="mono" font-size="13.5" font-weight="700" fill="#CBD5E1">snake.yml · globe.yml</text>
+    <text x="644" y="135" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Automated renderers</text>
+    <path d="M54 150 h6 l2 2 h7 v10 h-15 z" fill="#FB7185" fill-opacity="0.28" stroke="#FB7185" stroke-width="1.3"/>
+    <text x="78" y="160" class="mono" font-size="13.5" font-weight="700" fill="#FFFFFF">app/</text>
+    <text x="644" y="160" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Backend Domain</text>
+    <path d="M76 175 h6 l2 2 h7 v10 h-15 z" fill="#FB7185" fill-opacity="0.28" stroke="#FB7185" stroke-width="1.3"/>
+    <text x="100" y="185" class="mono" font-size="13.5" font-weight="700" fill="#CBD5E1">Http/Controllers/</text>
+    <text x="644" y="185" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Request controllers</text>
+    <path d="M76 200 h6 l2 2 h7 v10 h-15 z" fill="#F59E0B" fill-opacity="0.28" stroke="#F59E0B" stroke-width="1.3"/>
+    <text x="100" y="210" class="mono" font-size="13.5" font-weight="700" fill="#CBD5E1">Http/Middleware/</text>
+    <text x="644" y="210" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Auth &amp; RBAC filters</text>
+    <rect x="78" y="224" width="11" height="13" rx="2" fill="#38BDF8" fill-opacity="0.20" stroke="#38BDF8" stroke-width="1.2"/>
+    <text x="100" y="235" class="mono" font-size="13.5" font-weight="700" fill="#CBD5E1">Models/</text>
+    <text x="644" y="235" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Eloquent data models</text>
+    <path d="M54 250 h6 l2 2 h7 v10 h-15 z" fill="#10B981" fill-opacity="0.28" stroke="#10B981" stroke-width="1.3"/>
+    <text x="78" y="260" class="mono" font-size="13.5" font-weight="700" fill="#FFFFFF">resources/</text>
+    <text x="644" y="260" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">UI &amp; Frontend</text>
+    <rect x="78" y="274" width="11" height="13" rx="2" fill="#34D399" fill-opacity="0.20" stroke="#34D399" stroke-width="1.2"/>
+    <text x="100" y="285" class="mono" font-size="13.5" font-weight="700" fill="#CBD5E1">views/ · css/ · js/</text>
+    <text x="644" y="285" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Blade, CSS &amp; React</text>
+    <path d="M54 300 h6 l2 2 h7 v10 h-15 z" fill="#818CF8" fill-opacity="0.28" stroke="#818CF8" stroke-width="1.3"/>
+    <text x="78" y="310" class="mono" font-size="13.5" font-weight="700" fill="#FFFFFF">routes/</text>
+    <text x="644" y="310" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">App Endpoints</text>
+    <rect x="78" y="324" width="11" height="13" rx="2" fill="#A5B4FC" fill-opacity="0.20" stroke="#A5B4FC" stroke-width="1.2"/>
+    <text x="100" y="335" class="mono" font-size="13.5" font-weight="700" fill="#CBD5E1">web.php · api.php</text>
+    <text x="644" y="335" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Web &amp; REST routes</text>
+    <rect x="56" y="349" width="11" height="13" rx="2" fill="#94A3B8" fill-opacity="0.20" stroke="#94A3B8" stroke-width="1.2"/>
+    <text x="78" y="360" class="mono" font-size="13.5" font-weight="700" fill="#FFFFFF">storage/ · README.md</text>
+    <text x="644" y="360" class="sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Assets &amp; profile docs</text>
+  </g>
+
+  <!-- Right Module Inspector -->
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#rtClipR)">
+      <rect x="694" y="6" width="706" height="386" rx="18" fill="#0D121B"/>
+    </g>
+    <rect x="694.75" y="6.75" width="704.5" height="384.5" rx="17.5" fill="none" stroke="url(#rtBdR)" stroke-width="1.5"/>
+
+    <circle cx="726" cy="40" r="5" fill="#10B981" filter="url(#glow)"/>
+    <text x="742" y="45" class="sans" font-size="15" font-weight="800" letter-spacing="1.4" fill="#FFFFFF">DIRECTORY RESPONSIBILITY MAP</text>
+    <line x1="720" y1="58" x2="1374" y2="58" stroke="#1E293B" stroke-width="1"/>
+    
+    <rect x="720" y="76" width="654" height="50" rx="11" fill="#0B1018" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.1"/>
+    <rect x="730" y="89" width="128" height="24" rx="6" fill="#38BDF8" fill-opacity="0.16" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="794" y="105" class="mono" font-size="10.5" font-weight="800" fill="#38BDF8" text-anchor="middle">CI / AUTOMATION</text>
+    <text x="870" y="97" class="mono" font-size="12" font-weight="700" fill="#FFFFFF">.github/workflows/</text>
+    <text x="870" y="115" class="sans" font-size="12" font-weight="400" fill="#94A3B8">Scheduled 3D Globe &amp; Contribution Snake workflows</text>
+    <rect x="720" y="136" width="654" height="50" rx="11" fill="#0B1018" stroke="#FB7185" stroke-opacity="0.34" stroke-width="1.1"/>
+    <rect x="730" y="149" width="128" height="24" rx="6" fill="#FB7185" fill-opacity="0.16" stroke="#FB7185" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="794" y="165" class="mono" font-size="10.5" font-weight="800" fill="#FB7185" text-anchor="middle">MVC &amp; RBAC CORE</text>
+    <text x="870" y="157" class="mono" font-size="12" font-weight="700" fill="#FFFFFF">app/Http/ &amp; Models/</text>
+    <text x="870" y="175" class="sans" font-size="12" font-weight="400" fill="#94A3B8">Controllers, RBAC middleware auth &amp; Eloquent ORM</text>
+    <rect x="720" y="196" width="654" height="50" rx="11" fill="#0B1018" stroke="#10B981" stroke-opacity="0.34" stroke-width="1.1"/>
+    <rect x="730" y="209" width="128" height="24" rx="6" fill="#10B981" fill-opacity="0.16" stroke="#10B981" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="794" y="225" class="mono" font-size="10.5" font-weight="800" fill="#10B981" text-anchor="middle">UI COMPONENTS</text>
+    <text x="870" y="217" class="mono" font-size="12" font-weight="700" fill="#FFFFFF">resources/views &amp; js/</text>
+    <text x="870" y="235" class="sans" font-size="12" font-weight="400" fill="#94A3B8">Shared Blade partials, stylesheets &amp; React UI</text>
+    <rect x="720" y="256" width="654" height="50" rx="11" fill="#0B1018" stroke="#F59E0B" stroke-opacity="0.34" stroke-width="1.1"/>
+    <rect x="730" y="269" width="128" height="24" rx="6" fill="#F59E0B" fill-opacity="0.16" stroke="#F59E0B" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="794" y="285" class="mono" font-size="10.5" font-weight="800" fill="#F59E0B" text-anchor="middle">ROUTING ENGINE</text>
+    <text x="870" y="277" class="mono" font-size="12" font-weight="700" fill="#FFFFFF">routes/web.php &amp; api.php</text>
+    <text x="870" y="295" class="sans" font-size="12" font-weight="400" fill="#94A3B8">Stateful web views &amp; stateless JSON REST endpoints</text>
+    <rect x="720" y="316" width="654" height="50" rx="11" fill="#0B1018" stroke="#818CF8" stroke-opacity="0.34" stroke-width="1.1"/>
+    <rect x="730" y="329" width="128" height="24" rx="6" fill="#818CF8" fill-opacity="0.16" stroke="#818CF8" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="794" y="345" class="mono" font-size="10.5" font-weight="800" fill="#818CF8" text-anchor="middle">PROFILE ENTRY</text>
+    <text x="870" y="337" class="mono" font-size="12" font-weight="700" fill="#FFFFFF">README.md &amp; SVGs</text>
+    <text x="870" y="355" class="sans" font-size="12" font-weight="400" fill="#94A3B8">Animated multi-color profile matrices &amp; visuals</text>
+  </g>
+</svg>

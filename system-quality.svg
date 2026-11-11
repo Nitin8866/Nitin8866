@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 220" width="1400" height="220" role="img" aria-label="System Quality Metrics — Scalability, Security, Responsive, Maintainability, Quality">
+  <defs>
+    
+    <filter id="cardShadow" x="-6%" y="-10%" width="112%" height="126%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000000" flood-opacity="0.54"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="sheenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="46%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.09"/>
+      <stop offset="54%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="barSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="qc0"><rect x="0" y="6" width="260" height="206" rx="18"/></clipPath><clipPath id="qc1"><rect x="285" y="6" width="260" height="206" rx="18"/></clipPath><clipPath id="qc2"><rect x="570" y="6" width="260" height="206" rx="18"/></clipPath><clipPath id="qc3"><rect x="855" y="6" width="260" height="206" rx="18"/></clipPath><clipPath id="qc4"><rect x="1140" y="6" width="260" height="206" rx="18"/></clipPath>
+    <style><![CDATA[
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace; }
+      @keyframes tickRot { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes qSweep { 0%, 100% { transform: translateX(-300px); } 25% { transform: translateX(300px); } }
+      .tickSpin { transform-box: fill-box; transform-origin: center; animation: tickRot 22s linear infinite; }
+      .qsw0 { animation: qSweep 8s ease-in-out 0.0s infinite; }
+      .qsw1 { animation: qSweep 8s ease-in-out 1.2s infinite; }
+      .qsw2 { animation: qSweep 8s ease-in-out 2.4s infinite; }
+      .qsw3 { animation: qSweep 8s ease-in-out 3.6s infinite; }
+      .qsw4 { animation: qSweep 8s ease-in-out 4.8s infinite; }
+    ]]></style>
+  </defs>
+  
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#qc0)">
+      <rect x="0" y="6" width="260" height="206" rx="18" fill="#0F141D"/>
+      <circle cx="130" cy="88" r="88" fill="#10B981" fill-opacity="0.08"/>
+      <rect class="qsw0" x="0" y="6" width="260" height="206" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="0.75" y="6.75" width="258.5" height="204.5" rx="17.5" fill="none" stroke="#10B981" stroke-opacity="0.40" stroke-width="1.4"/>
+
+    <!-- Rotating outer dashed ring -->
+    <circle cx="130" cy="88" r="58" fill="none" stroke="#10B981" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3 7" class="tickSpin"/>
+    <circle cx="130" cy="88" r="46" fill="none" stroke="#1E293B" stroke-width="10"/>
+    <circle cx="130" cy="88" r="46" fill="none" stroke="#10B981" stroke-width="10" stroke-linecap="round"
+            stroke-dasharray="283.25 289.03" transform="rotate(-90 130 88)" filter="url(#glow)"/>
+    <text x="130" y="95" class="mono" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">98%</text>
+
+    <text x="130" y="171" class="sans" font-size="14" font-weight="800" letter-spacing="1.4" fill="#10B981" text-anchor="middle">SCALABILITY</text>
+    <text x="130" y="192" class="mono" font-size="11.5" font-weight="600" fill="#94A3B8" text-anchor="middle">Load Ready</text>
+  </g>
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#qc1)">
+      <rect x="285" y="6" width="260" height="206" rx="18" fill="#0F141D"/>
+      <circle cx="415" cy="88" r="88" fill="#06B6D4" fill-opacity="0.08"/>
+      <rect class="qsw1" x="285" y="6" width="260" height="206" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="285.75" y="6.75" width="258.5" height="204.5" rx="17.5" fill="none" stroke="#06B6D4" stroke-opacity="0.40" stroke-width="1.4"/>
+
+    <!-- Rotating outer dashed ring -->
+    <circle cx="415" cy="88" r="58" fill="none" stroke="#06B6D4" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3 7" class="tickSpin"/>
+    <circle cx="415" cy="88" r="46" fill="none" stroke="#1E293B" stroke-width="10"/>
+    <circle cx="415" cy="88" r="46" fill="none" stroke="#06B6D4" stroke-width="10" stroke-linecap="round"
+            stroke-dasharray="274.58 289.03" transform="rotate(-90 415 88)" filter="url(#glow)"/>
+    <text x="415" y="95" class="mono" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">95%</text>
+
+    <text x="415" y="171" class="sans" font-size="14" font-weight="800" letter-spacing="1.4" fill="#06B6D4" text-anchor="middle">SECURITY</text>
+    <text x="415" y="192" class="mono" font-size="11.5" font-weight="600" fill="#94A3B8" text-anchor="middle">RBAC & JWT</text>
+  </g>
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#qc2)">
+      <rect x="570" y="6" width="260" height="206" rx="18" fill="#0F141D"/>
+      <circle cx="700" cy="88" r="88" fill="#F59E0B" fill-opacity="0.08"/>
+      <rect class="qsw2" x="570" y="6" width="260" height="206" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="570.75" y="6.75" width="258.5" height="204.5" rx="17.5" fill="none" stroke="#F59E0B" stroke-opacity="0.40" stroke-width="1.4"/>
+
+    <!-- Rotating outer dashed ring -->
+    <circle cx="700" cy="88" r="58" fill="none" stroke="#F59E0B" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3 7" class="tickSpin"/>
+    <circle cx="700" cy="88" r="46" fill="none" stroke="#1E293B" stroke-width="10"/>
+    <circle cx="700" cy="88" r="46" fill="none" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"
+            stroke-dasharray="289.03 289.03" transform="rotate(-90 700 88)" filter="url(#glow)"/>
+    <text x="700" y="95" class="mono" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">100%</text>
+
+    <text x="700" y="171" class="sans" font-size="14" font-weight="800" letter-spacing="1.4" fill="#F59E0B" text-anchor="middle">RESPONSIVE</text>
+    <text x="700" y="192" class="mono" font-size="11.5" font-weight="600" fill="#94A3B8" text-anchor="middle">All Screens</text>
+  </g>
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#qc3)">
+      <rect x="855" y="6" width="260" height="206" rx="18" fill="#0F141D"/>
+      <circle cx="985" cy="88" r="88" fill="#60A5FA" fill-opacity="0.08"/>
+      <rect class="qsw3" x="855" y="6" width="260" height="206" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="855.75" y="6.75" width="258.5" height="204.5" rx="17.5" fill="none" stroke="#60A5FA" stroke-opacity="0.40" stroke-width="1.4"/>
+
+    <!-- Rotating outer dashed ring -->
+    <circle cx="985" cy="88" r="58" fill="none" stroke="#60A5FA" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3 7" class="tickSpin"/>
+    <circle cx="985" cy="88" r="46" fill="none" stroke="#1E293B" stroke-width="10"/>
+    <circle cx="985" cy="88" r="46" fill="none" stroke="#60A5FA" stroke-width="10" stroke-linecap="round"
+            stroke-dasharray="277.47 289.03" transform="rotate(-90 985 88)" filter="url(#glow)"/>
+    <text x="985" y="95" class="mono" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">96%</text>
+
+    <text x="985" y="171" class="sans" font-size="14" font-weight="800" letter-spacing="1.4" fill="#60A5FA" text-anchor="middle">MAINTAIN</text>
+    <text x="985" y="192" class="mono" font-size="11.5" font-weight="600" fill="#94A3B8" text-anchor="middle">Clean Modular</text>
+  </g>
+  <g filter="url(#cardShadow)">
+    <g clip-path="url(#qc4)">
+      <rect x="1140" y="6" width="260" height="206" rx="18" fill="#0F141D"/>
+      <circle cx="1270" cy="88" r="88" fill="#FB7185" fill-opacity="0.08"/>
+      <rect class="qsw4" x="1140" y="6" width="260" height="206" fill="url(#sheenGrad)"/>
+    </g>
+    <rect x="1140.75" y="6.75" width="258.5" height="204.5" rx="17.5" fill="none" stroke="#FB7185" stroke-opacity="0.40" stroke-width="1.4"/>
+
+    <!-- Rotating outer dashed ring -->
+    <circle cx="1270" cy="88" r="58" fill="none" stroke="#FB7185" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3 7" class="tickSpin"/>
+    <circle cx="1270" cy="88" r="46" fill="none" stroke="#1E293B" stroke-width="10"/>
+    <circle cx="1270" cy="88" r="46" fill="none" stroke="#FB7185" stroke-width="10" stroke-linecap="round"
+            stroke-dasharray="274.58 289.03" transform="rotate(-90 1270 88)" filter="url(#glow)"/>
+    <text x="1270" y="95" class="mono" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">95%</text>
+
+    <text x="1270" y="171" class="sans" font-size="14" font-weight="800" letter-spacing="1.4" fill="#FB7185" text-anchor="middle">QUALITY</text>
+    <text x="1270" y="192" class="mono" font-size="11.5" font-weight="600" fill="#94A3B8" text-anchor="middle">Strict Audit</text>
+  </g>
+</svg>
