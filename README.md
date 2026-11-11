@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Nitin%20Maharaj&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Laravel%20•%20MERN%20•%20Flutter&descAlignY=58&descSize=18" width="100%"/>
+<img src="./hero-banner.png" alt="Nitin Maharaj — Full Stack Developer | Laravel • MERN • Flutter" width="100%"/>
 
 <br/>
 
@@ -662,7 +662,7 @@ jobs:
 <a name="connect"></a>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=120&section=footer"/>
+<img src="./hero-banner.png" alt="Nitin Maharaj — Full Stack Developer | Laravel • MERN • Flutter" width="100%"/>
 
 <p>
   <strong>Nitin Maharaj &bull; Full Stack Developer</strong><br/>
