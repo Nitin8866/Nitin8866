@@ -1,8 +1,6 @@
 <div align="center">
 
-<p align="center">
-  <img src="./hero-bg.png" alt="Nitin Maharaj — Office Portrait" width="53%"/>&nbsp;<img src="./hero-text.svg" alt="Nitin Maharaj — Full Stack Developer | Laravel • MERN • Flutter" width="45.5%"/>
-</p>
+<img src="./hero-banner.svg" alt="Nitin Maharaj — Full Stack Developer | Laravel • MERN • Flutter" width="100%"/>
 
 <br/>
 
