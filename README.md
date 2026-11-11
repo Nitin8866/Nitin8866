@@ -1,14 +1,10 @@
 <div align="center">
 
-<img src="./hero-banner.png" alt="Nitin Maharaj — Full Stack Developer | Laravel • MERN • Flutter" width="100%"/>
+<p align="center">
+  <img src="./hero-bg.png" alt="Nitin Maharaj — Office Portrait" width="53%"/>&nbsp;<img src="./hero-text.svg" alt="Nitin Maharaj — Full Stack Developer | Laravel • MERN • Flutter" width="45.5%"/>
+</p>
 
 <br/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8E2DE2&center=true&vCenter=true&repeat=true&width=600&height=50&lines=Full+Stack+Developer;Laravel+%2B+MERN+Enthusiast;Building+Admin+Panels%2C+CRMs+%26+PWAs;Turning+Ideas+into+Clean%2C+Scalable+Code" alt="Typing Tagline" />
-</a>
-
-<br/><br/>
 
 <a href="https://www.linkedin.com/in/nitin-maharaj-851987322"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="34"/></a>
 <a href="mailto:nitinmaharaj8866@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="34"/></a>

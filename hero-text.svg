@@ -1,0 +1,312 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 720" width="980" height="720" role="img" aria-label="Nitin Maharaj — Full Stack Developer | Laravel, MERN, Flutter">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#111624"/>
+      <stop offset="100%" stop-color="#16102A"/>
+    </linearGradient>
+
+    <radialGradient id="ambientGlow1" cx="84%" cy="16%" r="65%">
+      <stop offset="0%" stop-color="#8E2DE2" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#4A00E0" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="ambientGlow2" cx="15%" cy="88%" r="55%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="55%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+
+    <linearGradient id="bottomBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="45%" stop-color="#8E2DE2"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.28"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0.20"/>
+    </linearGradient>
+
+    <linearGradient id="pillPrimaryBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B21B6" stop-opacity="0.60"/>
+      <stop offset="100%" stop-color="#3B0764" stop-opacity="0.50"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+
+    <pattern id="dotGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="1.2" fill="#94A3B8" fill-opacity="0.14"/>
+    </pattern>
+
+    <filter id="textShadow" x="-15%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.78"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8E2DE2" flood-opacity="0.34"/>
+    </filter>
+
+    <filter id="softShadow" x="-15%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.68"/>
+    </filter>
+
+    <filter id="glowBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="980" height="720" rx="26" ry="26"/>
+    </clipPath>
+
+    <!-- Exact synchronized clip widths for the 3 typewriter phrases -->
+    <clipPath id="typeClip1">
+      <rect class="type-mask-1" x="112" y="388" width="0" height="54"/>
+    </clipPath>
+    <clipPath id="typeClip2">
+      <rect class="type-mask-2" x="112" y="388" width="0" height="54"/>
+    </clipPath>
+    <clipPath id="typeClip3">
+      <rect class="type-mask-3" x="112" y="388" width="0" height="54"/>
+    </clipPath>
+
+    <style><![CDATA[
+      .sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+      .mono {
+        font-family: ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+      }
+
+      @keyframes fadeSlideDown {
+        0% { opacity: 0; transform: translateY(-14px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeSlideUp {
+        0% { opacity: 0; transform: translateY(18px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes growLine {
+        0% { transform: scaleX(0); opacity: 0; }
+        100% { transform: scaleX(1); opacity: 1; }
+      }
+      @keyframes pillPop {
+        0% { opacity: 0; transform: translateY(14px) scale(0.96); }
+        100% { opacity: 1; transform: translateY(0) scale(1); }
+      }
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.45; transform: scale(1.38); }
+      }
+      @keyframes floatOrb {
+        0%, 100% { transform: translate(0px, 0px); opacity: 0.78; }
+        50% { transform: translate(-18px, 14px); opacity: 1; }
+      }
+      @keyframes pillShimmer {
+        0%, 100% { stroke-opacity: 0.36; }
+        50% { stroke-opacity: 0.95; }
+      }
+      @keyframes cursorBlink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      /* 12s cycle: 3 phrases, smooth typing reveal + synchronized moving cursor */
+      /* Phrase 1: textLength=580 */
+      @keyframes typeWidth1 {
+        0%          { width: 0px; }
+        16%, 29%    { width: 584px; }
+        33.3%, 100% { width: 0px; }
+      }
+      /* Phrase 2: textLength=564 */
+      @keyframes typeWidth2 {
+        0%, 33.4%   { width: 0px; }
+        49%, 62%    { width: 568px; }
+        66.6%, 100% { width: 0px; }
+      }
+      /* Phrase 3: textLength=504 */
+      @keyframes typeWidth3 {
+        0%, 66.7%   { width: 0px; }
+        82%, 95%    { width: 508px; }
+        100%        { width: 0px; }
+      }
+
+      /* Synchronized cursor X offset from x=116 */
+      @keyframes cursorMove {
+        0%          { transform: translateX(0px); }
+        16%, 29%    { transform: translateX(584px); }
+        33.3%, 33.4%{ transform: translateX(0px); }
+        49%, 62%    { transform: translateX(568px); }
+        66.6%, 66.7%{ transform: translateX(0px); }
+        82%, 95%    { transform: translateX(508px); }
+        100%        { transform: translateX(0px); }
+      }
+
+      /* Snappy staggered entrance (completes by ~1.0s) */
+      .anim-badge {
+        opacity: 0;
+        animation: fadeSlideDown 0.45s cubic-bezier(0.22, 1, 0.36, 1) 0.05s forwards;
+      }
+      .anim-name {
+        opacity: 0;
+        animation: fadeSlideUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.14s forwards;
+      }
+      .anim-line {
+        opacity: 0;
+        transform-origin: 64px 267px;
+        animation: growLine 0.50s cubic-bezier(0.22, 1, 0.36, 1) 0.28s forwards;
+      }
+      .anim-role {
+        opacity: 0;
+        animation: fadeSlideUp 0.50s cubic-bezier(0.22, 1, 0.36, 1) 0.38s forwards;
+      }
+      .anim-terminal {
+        opacity: 0;
+        animation: fadeSlideUp 0.50s cubic-bezier(0.22, 1, 0.36, 1) 0.50s forwards;
+      }
+      .anim-pill-1 {
+        opacity: 0;
+        animation: pillPop 0.42s cubic-bezier(0.22, 1, 0.36, 1) 0.60s forwards;
+      }
+      .anim-pill-2 {
+        opacity: 0;
+        animation: pillPop 0.42s cubic-bezier(0.22, 1, 0.36, 1) 0.70s forwards;
+      }
+      .anim-pill-3 {
+        opacity: 0;
+        animation: pillPop 0.42s cubic-bezier(0.22, 1, 0.36, 1) 0.80s forwards;
+      }
+      .anim-pill-4 {
+        opacity: 0;
+        animation: pillPop 0.42s cubic-bezier(0.22, 1, 0.36, 1) 0.90s forwards;
+      }
+
+      .live-dot {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: pulseDot 2.2s ease-in-out infinite;
+      }
+      .orb-float {
+        animation: floatOrb 6s ease-in-out infinite;
+      }
+      .shimmer-border {
+        animation: pillShimmer 3.0s ease-in-out infinite;
+      }
+      .shimmer-delay {
+        animation: pillShimmer 3.0s ease-in-out 1.5s infinite;
+      }
+      .cursor-group {
+        animation: cursorMove 12s steps(32, end) 0.55s infinite;
+      }
+      .cursor-rect {
+        animation: cursorBlink 0.72s step-end infinite;
+      }
+      .type-mask-1 {
+        animation: typeWidth1 12s steps(32, end) 0.55s infinite;
+      }
+      .type-mask-2 {
+        animation: typeWidth2 12s steps(32, end) 0.55s infinite;
+      }
+      .type-mask-3 {
+        animation: typeWidth3 12s steps(28, end) 0.55s infinite;
+      }
+    ]]></style>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="980" height="720" fill="url(#cardBg)"/>
+    <rect x="0" y="0" width="980" height="720" fill="url(#dotGrid)"/>
+    <rect class="orb-float" x="0" y="0" width="980" height="720" fill="url(#ambientGlow1)"/>
+    <rect x="0" y="0" width="980" height="720" fill="url(#ambientGlow2)"/>
+
+    <text x="860" y="138" class="mono" font-size="78" font-weight="700" fill="#8E2DE2" fill-opacity="0.14" text-anchor="middle">&lt;/&gt;</text>
+
+    <!-- 1. Eyebrow Pill -->
+    <g class="anim-badge" filter="url(#softShadow)">
+      <rect x="64" y="68" width="442" height="50" rx="25" fill="#131926" fill-opacity="0.92" stroke="#A855F7" stroke-opacity="0.52" stroke-width="1.5"/>
+      <circle class="live-dot" cx="96" cy="93" r="7" fill="#22C55E" filter="url(#glowBlur)"/>
+      <text x="118" y="100" class="sans" font-size="18.5" font-weight="700" letter-spacing="3.0" fill="#F3E8FF">FULL-STACK ENGINEER • INDIA</text>
+    </g>
+
+    <!-- 2. Main Headline -->
+    <g class="anim-name" filter="url(#textShadow)">
+      <text x="64" y="232" class="sans" font-size="94" font-weight="800" letter-spacing="-2.5" fill="url(#nameGrad)">Nitin Maharaj</text>
+    </g>
+
+    <!-- 3. Accent Line -->
+    <rect class="anim-line" x="64" y="264" width="168" height="6" rx="3" fill="url(#accentGrad)" filter="url(#glowBlur)"/>
+
+    <!-- 4. Role Subtitle -->
+    <g class="anim-role" filter="url(#softShadow)">
+      <text x="64" y="330" class="sans" font-size="33" font-weight="700" fill="#FFFFFF">
+        Full Stack Developer <tspan fill="#C084FC" font-weight="700" dx="4">|</tspan> <tspan fill="#DDD6FE" font-weight="600" dx="4">Laravel • MERN • Flutter</tspan>
+      </text>
+    </g>
+
+    <!-- 5. Typewriter Terminal Bar -->
+    <g class="anim-terminal" filter="url(#softShadow)">
+      <rect x="64" y="380" width="852" height="72" rx="14" fill="#090D14" fill-opacity="0.90" stroke="#6366F1" stroke-opacity="0.42" stroke-width="1.5"/>
+      <text x="86" y="425" class="mono" font-size="25" font-weight="700" fill="#A855F7">&gt;</text>
+
+      <g clip-path="url(#typeClip1)">
+        <text x="114" y="424" class="mono" font-size="24.5" font-weight="600" fill="#E2E8F0" textLength="580" lengthAdjust="spacingAndGlyphs">Building Scalable Web Apps &amp; APIs</text>
+      </g>
+      <g clip-path="url(#typeClip2)">
+        <text x="114" y="424" class="mono" font-size="24.5" font-weight="600" fill="#E2E8F0" textLength="564" lengthAdjust="spacingAndGlyphs">Architecting Admin Panels &amp; CRMs</text>
+      </g>
+      <g clip-path="url(#typeClip3)">
+        <text x="114" y="424" class="mono" font-size="24.5" font-weight="600" fill="#E2E8F0" textLength="504" lengthAdjust="spacingAndGlyphs">Crafting Cross-Platform PWAs</text>
+      </g>
+
+      <g class="cursor-group">
+        <rect class="cursor-rect" x="124" y="401" width="9" height="30" rx="2" fill="#A855F7"/>
+      </g>
+      <text x="892" y="422" class="mono" font-size="14" font-weight="700" fill="#64748B" text-anchor="end">LIVE</text>
+      <circle class="live-dot" cx="842" cy="417" r="4.5" fill="#22C55E"/>
+    </g>
+
+    <!-- 6. 2x2 Tech Stack Pills -->
+    <g class="anim-pill-1" filter="url(#softShadow)">
+      <rect class="shimmer-border" x="64" y="492" width="414" height="66" rx="14" fill="url(#pillPrimaryBg)" stroke="#C084FC" stroke-width="1.5"/>
+      <circle cx="98" cy="525" r="7" fill="#FF4D4D" filter="url(#glowBlur)"/>
+      <text x="120" y="534" class="sans" font-size="24" font-weight="700" fill="#FFFFFF">Laravel &amp; PHP</text>
+      <text x="454" y="532" class="mono" font-size="16" font-weight="600" fill="#DDD6FE" text-anchor="end">BACKEND</text>
+    </g>
+
+    <g class="anim-pill-2" filter="url(#softShadow)">
+      <rect class="shimmer-delay" x="502" y="492" width="414" height="66" rx="14" fill="#131926" fill-opacity="0.90" stroke="#60A5FA" stroke-width="1.5"/>
+      <circle cx="536" cy="525" r="7" fill="#61DAFB" filter="url(#glowBlur)"/>
+      <text x="558" y="534" class="sans" font-size="24" font-weight="700" fill="#F8FAFC">React &amp; Node.js</text>
+      <text x="892" y="532" class="mono" font-size="16" font-weight="600" fill="#94A3B8" text-anchor="end">MERN</text>
+    </g>
+
+    <g class="anim-pill-3" filter="url(#softShadow)">
+      <rect class="shimmer-delay" x="64" y="578" width="414" height="66" rx="14" fill="#131926" fill-opacity="0.90" stroke="#38BDF8" stroke-width="1.5"/>
+      <circle cx="98" cy="611" r="7" fill="#38BDF8" filter="url(#glowBlur)"/>
+      <text x="120" y="620" class="sans" font-size="24" font-weight="700" fill="#F8FAFC">Flutter &amp; PWA</text>
+      <text x="454" y="618" class="mono" font-size="16" font-weight="600" fill="#94A3B8" text-anchor="end">MOBILE</text>
+    </g>
+
+    <g class="anim-pill-4" filter="url(#softShadow)">
+      <rect class="shimmer-border" x="502" y="578" width="414" height="66" rx="14" fill="#131926" fill-opacity="0.90" stroke="#4ADE80" stroke-width="1.5"/>
+      <circle cx="536" cy="611" r="7" fill="#4ADE80" filter="url(#glowBlur)"/>
+      <text x="558" y="620" class="sans" font-size="24" font-weight="700" fill="#F8FAFC">MySQL &amp; MongoDB</text>
+      <text x="892" y="618" class="mono" font-size="16" font-weight="600" fill="#94A3B8" text-anchor="end">DATA</text>
+    </g>
+
+    <rect x="0" y="715" width="980" height="5" fill="url(#bottomBarGrad)"/>
+  </g>
+
+  <rect x="1" y="1" width="978" height="718" rx="25" ry="25" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+</svg>
