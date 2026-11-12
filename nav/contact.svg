@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123 52" width="123" height="52" role="img" aria-label="CONTACT">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111723"/><stop offset="100%" stop-color="#0B1018"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="1" y="1" width="121" height="50" rx="8"/></clipPath>
+    <style><![CDATA[
+      .lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      @keyframes sw { 0%, 70% { transform: translateX(-143px); } 90%, 100% { transform: translateX(143px); } }
+      .sheen { animation: sw 6s ease-in-out 4.20s infinite; }
+    ]]></style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect x="1" y="1" width="121" height="50" rx="8" fill="url(#bg)"/>
+    <rect x="1" y="1" width="6" height="50" fill="#F59E0B"/>
+    <rect class="sheen" x="0" y="1" width="44" height="50" fill="url(#sh)"/>
+  </g>
+  <rect x="1" y="1" width="121" height="50" rx="8" fill="none" stroke="#F59E0B" stroke-opacity="0.34" stroke-width="1.5"/>
+  <text x="64.0" y="33" class="lbl" font-size="19.5" font-weight="700" letter-spacing="0.9" fill="#E6EDF3" text-anchor="middle">CONTACT</text>
+</svg>

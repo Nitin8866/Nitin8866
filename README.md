@@ -26,21 +26,19 @@
 
 <!-- TOP NAVIGATION BAR -->
 <div align="center">
-  <sub>
-    <a href="#overview">OVERVIEW</a> &middot;
-    <a href="#about-me">ABOUT</a> &middot;
-    <a href="#tech-stack">STACK</a> &middot;
-    <a href="#skill-proficiency">SKILLS</a> &middot;
-    <a href="#featured-projects">PROJECTS</a> &middot;
-    <a href="#github-analytics">ANALYTICS</a> &middot;
-    <a href="#system-quality">QUALITY</a> &middot;
-    <a href="#architecture">ARCHITECTURE</a> &middot;
-    <a href="#system-workflow">WORKFLOW</a> &middot;
-    <a href="#installation-guide">SETUP</a> &middot;
-    <a href="#project-roadmap">ROADMAP</a> &middot;
-    <a href="#faq">FAQ</a> &middot;
-    <a href="#connect">CONTACT</a>
-  </sub>
+  <a href="#overview"><img src="./nav/overview.svg" height="25" alt="OVERVIEW"/></a>
+  <a href="#about-me"><img src="./nav/about.svg" height="25" alt="ABOUT"/></a>
+  <a href="#tech-stack"><img src="./nav/stack.svg" height="25" alt="STACK"/></a>
+  <a href="#skill-proficiency"><img src="./nav/skills.svg" height="25" alt="SKILLS"/></a>
+  <a href="#featured-projects"><img src="./nav/projects.svg" height="25" alt="PROJECTS"/></a>
+  <a href="#github-analytics"><img src="./nav/analytics.svg" height="25" alt="ANALYTICS"/></a>
+  <a href="#system-quality"><img src="./nav/quality.svg" height="25" alt="QUALITY"/></a>
+  <a href="#architecture"><img src="./nav/architecture.svg" height="25" alt="ARCHITECTURE"/></a>
+  <a href="#system-workflow"><img src="./nav/workflow.svg" height="25" alt="WORKFLOW"/></a>
+  <a href="#installation-guide"><img src="./nav/setup.svg" height="25" alt="SETUP"/></a>
+  <a href="#project-roadmap"><img src="./nav/roadmap.svg" height="25" alt="ROADMAP"/></a>
+  <a href="#faq"><img src="./nav/faq.svg" height="25" alt="FAQ"/></a>
+  <a href="#connect"><img src="./nav/contact.svg" height="25" alt="CONTACT"/></a>
 </div>
 
 <br/>
