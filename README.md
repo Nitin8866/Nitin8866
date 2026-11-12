@@ -1,3 +1,4 @@
+<a name="top"></a>
 <div align="center">
 
 <img src="./hero-banner.svg" alt="Nitin Maharaj — Full Stack Developer | Laravel • MERN • Flutter" width="100%"/>
@@ -362,17 +363,17 @@ jobs:
   <img src="./footer-banner.svg" alt="Nitin Maharaj — Full Stack Developer" width="100%"/>
 </a>
 
-<br/><br/>
+<br/>
 
-<p>
-  <a href="mailto:nitinmaharaj8866@gmail.com">Email</a> &bull;
-  <a href="https://www.linkedin.com/in/nitin-maharaj-851987322">LinkedIn</a> &bull;
-  <a href="https://github.com/Nitin8866">GitHub</a> &bull;
-  <a href="#overview">Back to Top</a>
-</p>
+<div>
+  <a href="mailto:nitinmaharaj8866@gmail.com"><img src="./nav/footer-email.svg" height="32" alt="Email Me"/></a>
+  <a href="https://www.linkedin.com/in/nitin-maharaj-851987322"><img src="./nav/footer-linkedin.svg" height="32" alt="LinkedIn"/></a>
+  <a href="https://github.com/Nitin8866"><img src="./nav/footer-github.svg" height="32" alt="GitHub"/></a>
+  <a href="#top"><img src="./nav/footer-top.svg" height="32" alt="Back to Top"/></a>
+</div>
 
-<p>
-  <sub>&copy; 2026 Nitin Maharaj. All rights reserved.</sub>
-</p>
+<br/>
+
+<img src="./nav/footer-copyright.svg" height="24" alt="© 2026 Nitin Maharaj. All rights reserved."/>
 
 </div>

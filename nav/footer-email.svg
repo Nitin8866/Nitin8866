@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 60" width="214" height="60" role="img" aria-label="EMAIL ME">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121826"/><stop offset="100%" stop-color="#0B1018"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="1" y="1" width="212" height="58" rx="8"/></clipPath>
+    <style><![CDATA[
+      .lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      @keyframes sw { 0%, 65% { transform: translateX(-244px); } 90%, 100% { transform: translateX(244px); } }
+      .sheen { animation: sw 6.5s ease-in-out 0.0s infinite; }
+    ]]></style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect x="1" y="1" width="212" height="58" rx="8" fill="url(#bg)"/>
+    <rect x="1" y="1" width="6" height="58" fill="#FB7185"/>
+    <rect class="sheen" x="0" y="1" width="56" height="58" fill="url(#sh)"/>
+  </g>
+  <rect x="1" y="1" width="212" height="58" rx="8" fill="none" stroke="#FB7185" stroke-opacity="0.40" stroke-width="1.5"/>
+  <rect x="26" y="22" width="22" height="16" rx="2.5" fill="none" stroke="#FB7185" stroke-width="2"/><path d="M27 23 L37 31 L47 23" fill="none" stroke="#FB7185" stroke-width="2" stroke-linecap="round"/>
+  <text x="62" y="36" class="lbl" font-size="18.5" font-weight="800" letter-spacing="1.2" fill="#F1F5F9">EMAIL ME</text>
+</svg>

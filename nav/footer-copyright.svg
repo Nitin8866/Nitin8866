@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 44" width="800" height="44" role="img" aria-label="Copyright 2026 Nitin Maharaj">
+  <defs>
+    <style><![CDATA[
+      .mono { font-family: ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace; }
+      @keyframes p { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+      .d1 { animation: p 3s ease-in-out 0.0s infinite; }
+      .d2 { animation: p 3s ease-in-out 1.5s infinite; }
+    ]]></style>
+  </defs>
+  <circle cx="152" cy="22" r="3" fill="#FB7185" class="d1"/>
+  <circle cx="166" cy="22" r="3" fill="#F59E0B" class="d2"/>
+  <text x="400" y="27" class="mono" font-size="14" font-weight="700" letter-spacing="1.6" fill="#94A3B8" text-anchor="middle">&#169; 2026 NITIN MAHARAJ  &#183;  ALL RIGHTS RESERVED</text>
+  <circle cx="634" cy="22" r="3" fill="#38BDF8" class="d1"/>
+  <circle cx="648" cy="22" r="3" fill="#10B981" class="d2"/>
+</svg>

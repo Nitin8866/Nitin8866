@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 232 60" width="232" height="60" role="img" aria-label="BACK TO TOP">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121826"/><stop offset="100%" stop-color="#0B1018"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="1" y="1" width="230" height="58" rx="8"/></clipPath>
+    <style><![CDATA[
+      .lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      @keyframes sw { 0%, 65% { transform: translateX(-262px); } 90%, 100% { transform: translateX(262px); } }
+      .sheen { animation: sw 6.5s ease-in-out 2.1s infinite; }
+    ]]></style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect x="1" y="1" width="230" height="58" rx="8" fill="url(#bg)"/>
+    <rect x="1" y="1" width="6" height="58" fill="#F59E0B"/>
+    <rect class="sheen" x="0" y="1" width="56" height="58" fill="url(#sh)"/>
+  </g>
+  <rect x="1" y="1" width="230" height="58" rx="8" fill="none" stroke="#F59E0B" stroke-opacity="0.40" stroke-width="1.5"/>
+  <circle cx="36" cy="30" r="9.5" fill="none" stroke="#F59E0B" stroke-width="1.8"/><path d="M36 35 V25 M31.5 29 L36 24.5 L40.5 29" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="36" class="lbl" font-size="18.5" font-weight="800" letter-spacing="1.2" fill="#F1F5F9">BACK TO TOP</text>
+</svg>
